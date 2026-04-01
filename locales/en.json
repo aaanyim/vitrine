@@ -12,7 +12,7 @@
     "title_1": "Produce.",
     "title_2": "Deliver.",
     "title_3": "Get paid.",
-    "subtitle": "AAANYIM is the first ERP built for producers and distributors of perishable goods in Africa. No more notebooks, uncontrolled cash, and unsold stock.",
+    "subtitle": "AAANYIM is the platform that lets African producers and distributors control their business remotely — stock, deliveries, payments — even when they're not on site.",
     "cta_primary": "Try for free",
     "cta_secondary": "Watch demo",
     "trust": "Used by producers in Togo, Cameroon, Ghana, Senegal, Benin and Ivory Coast"
@@ -32,32 +32,34 @@
     "title": "In Africa, producers lose up to 30% of their revenue",
     "cards": [
       {
-        "icon": "📋",
-        "title": "Notebook management",
-        "desc": "Orders get lost, stock levels are guesswork, no one knows what's left on the shelf."
+        "icon": "👁️",
+        "title": "No remote control",
+        "desc": "When you're not on site, you have no idea what's happening. Stock vanishes, money disappears."
       },
       {
         "icon": "💸",
         "title": "Uncontrolled cash",
-        "desc": "Drivers leave with cash, no receipt, no trace. Discrepancies happen every single day."
+        "desc": "Drivers leave with cash, no receipt, no trace. You find out about discrepancies too late."
       },
       {
-        "icon": "🗑️",
-        "title": "Wasted products",
-        "desc": "Without visibility on real demand, you produce too much or too little. Unsold goods end up in the trash."
+        "icon": "📉",
+        "title": "Invisible losses",
+        "desc": "Expired products, unreturned containers, forgotten orders — without a tool, you don't even know how much you're losing."
       }
     ]
   },
   "sectors": {
-    "badge": "Multi-sector",
-    "title": "One tool for all perishable goods",
+    "badge": "All sectors",
+    "title": "Whatever your business, AAANYIM adapts",
+    "subtitle": "Our first clients are in these sectors. More join every month.",
     "list": [
-      { "icon": "💧", "name": "Sachet water & bottles", "desc": "Sachets, 5L/10L/20L bottles, returnable containers" },
-      { "icon": "🍞", "name": "Bakery & pastry", "desc": "Bread, pastries, cakes — short shelf-life management" },
-      { "icon": "🔥", "name": "Domestic gas", "desc": "Returnable cylinders, return tracking, delivery routes" },
-      { "icon": "🛒", "name": "Grocery & food", "desc": "Fresh products, canned goods, beverages — date control" },
-      { "icon": "💊", "name": "Pharmacy & healthcare", "desc": "Medications, medical devices, strict traceability" },
-      { "icon": "🥤", "name": "Beverages & juice", "desc": "Production, packaging, multi-point distribution" }
+      { "icon": "💧", "name": "Sachet water & bottles", "desc": "Sachets, bottles, returnable containers — tracked from production to delivery" },
+      { "icon": "🔥", "name": "Gas & cylinders", "desc": "Control your cylinder stock, returns and drivers — even when you're not there" },
+      { "icon": "💊", "name": "Pharmacy", "desc": "Every product tracked, every sale recorded, total control of your pharmacy" },
+      { "icon": "🍞", "name": "Bakery & pastry", "desc": "Produce the right amount every day, zero wasted bread" },
+      { "icon": "🛒", "name": "Grocery & food", "desc": "Stock, expiry dates, orders — everything under control" },
+      { "icon": "🥤", "name": "Beverages & juice", "desc": "From production to point of sale, every bottle is tracked" },
+      { "icon": "➕", "name": "And many more...", "desc": "Cosmetics, building materials, agrifood — if you produce and deliver, AAANYIM is built for you" }
     ]
   },
   "solution": {

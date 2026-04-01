@@ -12,7 +12,7 @@
     "title_1": "Produisez.",
     "title_2": "Livrez.",
     "title_3": "Encaissez.",
-    "subtitle": "AAANYIM est le premier ERP pensé pour les producteurs et distributeurs de produits périssables en Afrique. Fini les cahiers, le cash incontrôlé et les invendus.",
+    "subtitle": "AAANYIM est la plateforme qui permet aux producteurs et distributeurs africains de contrôler leur business à distance — stocks, livraisons, paiements — même quand ils ne sont pas sur place.",
     "cta_primary": "Essayer gratuitement",
     "cta_secondary": "Voir la démo",
     "trust": "Utilisé par des producteurs au Togo, Cameroun, Ghana, Sénégal, Bénin et Côte d'Ivoire"
@@ -32,32 +32,34 @@
     "title": "En Afrique, les producteurs perdent jusqu'à 30% de leur chiffre d'affaires",
     "cards": [
       {
-        "icon": "📋",
-        "title": "Gestion au cahier",
-        "desc": "Les commandes se perdent, les stocks sont approximatifs, personne ne sait ce qui reste en rayon."
+        "icon": "👁️",
+        "title": "Pas de contrôle à distance",
+        "desc": "Quand vous n'êtes pas sur place, impossible de savoir ce qui se passe. Les stocks fondent, l'argent disparaît."
       },
       {
         "icon": "💸",
         "title": "Cash incontrôlé",
-        "desc": "Les livreurs repartent avec l'argent, pas de reçu, pas de trace. Les écarts sont quotidiens."
+        "desc": "Les livreurs repartent avec l'argent, pas de reçu, pas de trace. Vous découvrez les écarts trop tard."
       },
       {
-        "icon": "🗑️",
-        "title": "Produits perdus",
-        "desc": "Sans visibilité sur la demande réelle, on produit trop ou pas assez. Les invendus partent à la poubelle."
+        "icon": "📉",
+        "title": "Pertes invisibles",
+        "desc": "Produits périmés, bouteilles non retournées, commandes oubliées — sans outil, vous ne savez même pas combien vous perdez."
       }
     ]
   },
   "sectors": {
-    "badge": "Multi-secteurs",
-    "title": "Un seul outil pour tous les produits périssables",
+    "badge": "Tous secteurs",
+    "title": "Quel que soit votre business, AAANYIM s'adapte",
+    "subtitle": "Nos premiers clients sont dans ces secteurs. D'autres nous rejoignent chaque mois.",
     "list": [
-      { "icon": "💧", "name": "Eau en sachets & bidons", "desc": "Sachets, bidons 5L/10L/20L, bonbonnes consignées" },
-      { "icon": "🍞", "name": "Boulangerie & pâtisserie", "desc": "Pain, viennoiseries, gâteaux — gestion de la péremption courte" },
-      { "icon": "🔥", "name": "Gaz domestique", "desc": "Bouteilles consignées, suivi des retours, circuits de livraison" },
-      { "icon": "🛒", "name": "Épicerie & alimentaire", "desc": "Produits frais, conserves, boissons — contrôle des dates" },
-      { "icon": "💊", "name": "Pharmacie & parapharmacie", "desc": "Médicaments, dispositifs médicaux, traçabilité stricte" },
-      { "icon": "🥤", "name": "Boissons & jus", "desc": "Production, conditionnement, distribution multi-points de vente" }
+      { "icon": "💧", "name": "Eau en sachets & bidons", "desc": "Sachets, bidons, bonbonnes consignées — suivi de la production à la livraison" },
+      { "icon": "🔥", "name": "Gaz & bouteilles", "desc": "Contrôlez vos stocks de bouteilles, les retours et vos livreurs — même quand vous n'êtes pas là" },
+      { "icon": "💊", "name": "Pharmacie", "desc": "Chaque produit tracé, chaque vente enregistrée, contrôle total de votre officine" },
+      { "icon": "🍞", "name": "Boulangerie & pâtisserie", "desc": "Produisez la bonne quantité chaque jour, zéro pain perdu" },
+      { "icon": "🛒", "name": "Épicerie & alimentaire", "desc": "Stocks, dates de péremption, commandes — tout sous contrôle" },
+      { "icon": "🥤", "name": "Boissons & jus", "desc": "De la production au point de vente, chaque bouteille est suivie" },
+      { "icon": "➕", "name": "Et bien d'autres...", "desc": "Cosmétiques, matériaux de construction, agroalimentaire — si vous produisez et livrez, AAANYIM est fait pour vous" }
     ]
   },
   "solution": {

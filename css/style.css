@@ -506,7 +506,10 @@ img { max-width: 100%; display: block; }
 .sectors { text-align: center; }
 .sectors-grid {
   display: grid; grid-template-columns: repeat(3, 1fr);
-  gap: 24px; margin-top: 60px;
+  gap: 24px; margin-top: 40px;
+}
+.sectors-grid .sector-card:last-child:nth-child(3n+1) {
+  grid-column: 2;
 }
 .sector-card {
   background: var(--bg-card);
@@ -532,6 +535,11 @@ img { max-width: 100%; display: block; }
   font-weight: 700; margin-bottom: 8px;
 }
 .sector-card p { font-size: 14px; color: var(--text-muted); line-height: 1.5; }
+.sector-card.more {
+  border-style: dashed; border-color: var(--teal-600);
+  background: rgba(0,137,123,0.03);
+}
+.sector-card.more:hover { border-color: var(--teal-400); background: rgba(0,137,123,0.06); }
 
 /* ── ANIMATIONS ─────────────────────────────────────────── */
 .fade-up {

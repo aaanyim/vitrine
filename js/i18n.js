@@ -159,8 +159,8 @@ const I18N = {
     if (!container) return;
     const sectors = this.t('sectors.list');
     if (!Array.isArray(sectors)) return;
-    container.innerHTML = sectors.map(s => `
-      <div class="sector-card fade-up">
+    container.innerHTML = sectors.map((s, i) => `
+      <div class="sector-card fade-up ${i === sectors.length - 1 ? 'more' : ''}">
         <span class="sector-icon">${s.icon}</span>
         <h3>${s.name}</h3>
         <p>${s.desc}</p>

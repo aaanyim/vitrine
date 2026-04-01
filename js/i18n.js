@@ -69,6 +69,7 @@ const I18N = {
     // Dynamic sections
     this.renderProblemCards();
     this.renderFeatureCards();
+    this.renderSectorCards();
     this.renderSteps();
     this.renderPricing();
     this.renderSectorOptions();
@@ -149,6 +150,20 @@ const I18N = {
         <button class="pricing-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
           ${p.name === 'Enterprise' ? ctaEnterprise : cta}
         </button>
+      </div>
+    `).join('');
+  },
+
+  renderSectorCards() {
+    const container = document.getElementById('sectors-cards');
+    if (!container) return;
+    const sectors = this.t('sectors.list');
+    if (!Array.isArray(sectors)) return;
+    container.innerHTML = sectors.map(s => `
+      <div class="sector-card fade-up">
+        <span class="sector-icon">${s.icon}</span>
+        <h3>${s.name}</h3>
+        <p>${s.desc}</p>
       </div>
     `).join('');
   },

@@ -1,108 +1,125 @@
 {
   "nav": {
-    "features": "Features",
+    "features": "Why AAANYIM",
+    "sectors": "Sectors",
     "how": "How it works",
     "pricing": "Pricing",
     "contact": "Contact",
     "cta": "Request a demo"
   },
   "hero": {
-    "badge": "SaaS ERP for West Africa",
-    "title_1": "Zero waste.",
-    "title_2": "Zero loss.",
-    "title_3": "100% traceability.",
-    "subtitle": "AAANYIM digitizes the production, delivery and sales chain for perishable goods — sachet water, bakery, gas, grocery — for African producers.",
-    "cta_primary": "Start for free",
+    "badge": "The platform for African producers",
+    "title_1": "Produce.",
+    "title_2": "Deliver.",
+    "title_3": "Get paid.",
+    "subtitle": "AAANYIM is the first ERP built for producers and distributors of perishable goods in Africa. No more notebooks, uncontrolled cash, and unsold stock.",
+    "cta_primary": "Try for free",
     "cta_secondary": "Watch demo",
-    "trust": "Already used in 3 West African countries"
+    "trust": "Used by producers in Togo, Cameroon, Ghana, Senegal, Benin and Ivory Coast"
   },
   "stats": {
-    "countries": "Countries covered",
-    "revenue": "Revenue streams",
-    "offline": "Works offline",
-    "training": "Training time"
+    "s1_num": "6",
+    "s1_label": "Countries",
+    "s2_num": "6",
+    "s2_label": "Sectors covered",
+    "s3_num": "100%",
+    "s3_label": "Works without internet",
+    "s4_num": "<2h",
+    "s4_label": "To get started"
   },
   "problem": {
-    "badge": "The problem",
-    "title": "African producers lose up to 30% of their production",
+    "badge": "The reality",
+    "title": "In Africa, producers lose up to 30% of their revenue",
     "cards": [
       {
         "icon": "📋",
-        "title": "Notebook & WhatsApp management",
-        "desc": "No visibility on stock, orders get lost, impossible to plan production."
+        "title": "Notebook management",
+        "desc": "Orders get lost, stock levels are guesswork, no one knows what's left on the shelf."
       },
       {
         "icon": "💸",
-        "title": "Untraceable cash in transit",
-        "desc": "Drivers collect money without receipts. Losses and discrepancies are daily, with no way to verify."
+        "title": "Uncontrolled cash",
+        "desc": "Drivers leave with cash, no receipt, no trace. Discrepancies happen every single day."
       },
       {
         "icon": "🗑️",
-        "title": "Expired & unsold goods",
-        "desc": "Without demand data, producers manufacture blindly. Result: overstock or stockout."
+        "title": "Wasted products",
+        "desc": "Without visibility on real demand, you produce too much or too little. Unsold goods end up in the trash."
       }
     ]
   },
+  "sectors": {
+    "badge": "Multi-sector",
+    "title": "One tool for all perishable goods",
+    "list": [
+      { "icon": "💧", "name": "Sachet water & bottles", "desc": "Sachets, 5L/10L/20L bottles, returnable containers" },
+      { "icon": "🍞", "name": "Bakery & pastry", "desc": "Bread, pastries, cakes — short shelf-life management" },
+      { "icon": "🔥", "name": "Domestic gas", "desc": "Returnable cylinders, return tracking, delivery routes" },
+      { "icon": "🛒", "name": "Grocery & food", "desc": "Fresh products, canned goods, beverages — date control" },
+      { "icon": "💊", "name": "Pharmacy & healthcare", "desc": "Medications, medical devices, strict traceability" },
+      { "icon": "🥤", "name": "Beverages & juice", "desc": "Production, packaging, multi-point distribution" }
+    ]
+  },
   "solution": {
-    "badge": "The AAANYIM solution",
-    "title": "A complete ERP designed for African field operations",
+    "badge": "What you gain",
+    "title": "Everything a producer needs, in their pocket",
     "features": [
       {
-        "icon": "📦",
-        "title": "Multi-sector catalog",
-        "desc": "Water, gas, bakery, grocery — one tool for all perishable goods. Configurable catalog per tenant."
+        "icon": "📱",
+        "title": "Manage everything from your phone",
+        "desc": "Production, stock, orders, deliveries, payments — all in one mobile app."
       },
       {
         "icon": "📡",
-        "title": "100% Offline-first",
-        "desc": "Create lots, confirm deliveries, scan containers — even without network. Auto-sync when connection returns."
+        "title": "Works even without internet",
+        "desc": "Your drivers work in the field, even in dead zones. Everything syncs automatically."
       },
       {
-        "icon": "💳",
-        "title": "Built-in wallet & escrow",
-        "desc": "Mobile payment (Flooz, T-Money, MoMo), automatic escrow during delivery, transparent commissions."
+        "icon": "💰",
+        "title": "No more disappearing cash",
+        "desc": "Built-in mobile payment. Every transaction is tracked. No gap between what leaves and what comes back."
+      },
+      {
+        "icon": "📊",
+        "title": "Produce the right amount",
+        "desc": "The app analyzes your sales and tells you how much to produce tomorrow. Less waste, more margin."
       },
       {
         "icon": "🚚",
-        "title": "Shared transport",
-        "desc": "Optimize routes, track each stop via QR code, confirm delivery in real-time with photo proof."
-      },
-      {
-        "icon": "🤖",
-        "title": "Anti-waste AI",
-        "desc": "Production recommendations based on actual demand from the last 7 days. Produce exactly what's needed."
+        "title": "Track every delivery",
+        "desc": "Your drivers confirm each stop. You see in real-time what's delivered, sold, or returned."
       },
       {
         "icon": "🌍",
-        "title": "Multi-country & multi-currency",
-        "desc": "Togo (XOF), Cameroon (XAF), Ghana (GHS), Senegal, Benin, Ivory Coast — one account, all markets."
+        "title": "Scale without limits",
+        "desc": "Multi-site, multi-city, multi-country. Your tool grows with you, from 1 driver to 100."
       }
     ]
   },
   "how": {
-    "badge": "How it works",
-    "title": "Operational in 3 steps",
+    "badge": "Dead simple",
+    "title": "Up and running in 3 steps",
     "steps": [
       {
         "num": "01",
-        "title": "Sign up",
-        "desc": "Create your manager account in 2 minutes. Your workspace is ready immediately with your product catalog."
+        "title": "Create your account",
+        "desc": "In 2 minutes. Your workspace is ready with a product catalog tailored to your sector."
       },
       {
         "num": "02",
-        "title": "Set up your team",
-        "desc": "Add your drivers and resellers. Each gets a mobile app with features tailored to their role."
+        "title": "Add your team",
+        "desc": "Drivers, resellers — each gets the app with features relevant to their role."
       },
       {
         "num": "03",
-        "title": "Produce & deliver",
-        "desc": "Create batches, track deliveries in real-time, collect payments via mobile money. Zero paper, zero cash."
+        "title": "You're live",
+        "desc": "Produce, deliver, collect. You see everything from your real-time dashboard."
       }
     ]
   },
   "pricing": {
-    "badge": "Simple pricing",
-    "title": "A price that fits every business size",
+    "badge": "Transparent pricing",
+    "title": "Start free, grow at your pace",
     "monthly": "/month",
     "cta": "Get started",
     "cta_enterprise": "Contact us",
@@ -112,73 +129,72 @@
         "name": "Starter",
         "price": "7,500",
         "currency": "FCFA",
-        "desc": "To start your digital transformation",
+        "desc": "For small producers",
         "features": [
-          "1 manager + 2 drivers + 5 resellers",
-          "Unlimited product catalog",
-          "Full offline mode",
-          "Wallet & mobile payment",
+          "Up to 2 drivers",
+          "5 resellers",
+          "Offline mode",
+          "Mobile payment",
           "WhatsApp support"
         ]
       },
       {
-        "name": "Premium",
+        "name": "Pro",
         "price": "15,000",
         "currency": "FCFA",
         "desc": "For growing producers",
         "popular": true,
         "features": [
-          "1 manager + 10 drivers + 50 resellers",
+          "Up to 10 drivers",
+          "50 resellers",
           "Everything in Starter",
-          "AI production recommendation",
-          "Shared transport",
+          "Production recommendations",
           "Stock & expiry alerts",
-          "Analytics dashboard",
+          "Advanced dashboard",
           "Priority support"
         ]
       },
       {
         "name": "Enterprise",
-        "price": "30,000",
-        "currency": "FCFA",
+        "price": "Custom",
+        "currency": "",
         "desc": "For large operations",
         "features": [
           "Unlimited drivers & resellers",
-          "Everything in Premium",
+          "Everything in Pro",
           "Multi-site & multi-country",
-          "API & integrations",
+          "Custom integrations",
           "Dedicated account manager",
-          "99.9% SLA",
           "On-site training"
         ]
       }
     ]
   },
   "cta_section": {
-    "title": "Ready to digitize your production?",
-    "subtitle": "Join producers who reduced their losses by 30% with AAANYIM.",
-    "cta": "Start now",
-    "demo": "Schedule a demo"
+    "title": "Ready to stop losing money?",
+    "subtitle": "Join African producers who digitized their business with AAANYIM.",
+    "cta": "Try for free",
+    "demo": "Talk to an advisor"
   },
   "contact": {
-    "badge": "Contact",
-    "title": "Let's talk about your project",
-    "subtitle": "Our team responds within 24 hours.",
+    "badge": "Contact us",
+    "title": "We'll get back to you within 24h",
+    "subtitle": "Tell us what you produce, we'll show you how AAANYIM can help.",
     "form": {
       "name": "Full name",
       "email": "Email",
       "phone": "Phone (WhatsApp)",
-      "company": "Company name",
-      "sector": "Industry",
-      "sectors": ["Sachet water", "Bakery", "Gas", "Grocery", "Other"],
-      "message": "Your message",
+      "company": "Your company name",
+      "sector": "What do you produce?",
+      "sectors": ["Sachet water", "Bakery", "Gas", "Grocery", "Pharmacy", "Beverages", "Other"],
+      "message": "Describe your needs",
       "submit": "Send",
-      "success": "Message sent! We'll respond within 24 hours.",
-      "whatsapp": "Or message us on WhatsApp"
+      "success": "Thanks! We'll contact you within 24h.",
+      "whatsapp": "Prefer WhatsApp?"
     }
   },
   "footer": {
-    "desc": "SaaS ERP for digitizing perishable goods in Africa.",
+    "desc": "The platform that digitizes producers and distributors of perishable goods in Africa.",
     "product": "Product",
     "company": "Company",
     "legal": "Legal",
@@ -193,6 +209,6 @@
       "terms": "Terms"
     },
     "copyright": "© 2026 AAANYIM. All rights reserved.",
-    "made": "Made with ❤️ in Lomé, Togo"
+    "made": "Built in Lomé, Togo 🇹🇬"
   }
 }

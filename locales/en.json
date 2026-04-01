@@ -1,0 +1,198 @@
+{
+  "nav": {
+    "features": "Features",
+    "how": "How it works",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "cta": "Request a demo"
+  },
+  "hero": {
+    "badge": "SaaS ERP for West Africa",
+    "title_1": "Zero waste.",
+    "title_2": "Zero loss.",
+    "title_3": "100% traceability.",
+    "subtitle": "AAANYIM digitizes the production, delivery and sales chain for perishable goods — sachet water, bakery, gas, grocery — for African producers.",
+    "cta_primary": "Start for free",
+    "cta_secondary": "Watch demo",
+    "trust": "Already used in 3 West African countries"
+  },
+  "stats": {
+    "countries": "Countries covered",
+    "revenue": "Revenue streams",
+    "offline": "Works offline",
+    "training": "Training time"
+  },
+  "problem": {
+    "badge": "The problem",
+    "title": "African producers lose up to 30% of their production",
+    "cards": [
+      {
+        "icon": "📋",
+        "title": "Notebook & WhatsApp management",
+        "desc": "No visibility on stock, orders get lost, impossible to plan production."
+      },
+      {
+        "icon": "💸",
+        "title": "Untraceable cash in transit",
+        "desc": "Drivers collect money without receipts. Losses and discrepancies are daily, with no way to verify."
+      },
+      {
+        "icon": "🗑️",
+        "title": "Expired & unsold goods",
+        "desc": "Without demand data, producers manufacture blindly. Result: overstock or stockout."
+      }
+    ]
+  },
+  "solution": {
+    "badge": "The AAANYIM solution",
+    "title": "A complete ERP designed for African field operations",
+    "features": [
+      {
+        "icon": "📦",
+        "title": "Multi-sector catalog",
+        "desc": "Water, gas, bakery, grocery — one tool for all perishable goods. Configurable catalog per tenant."
+      },
+      {
+        "icon": "📡",
+        "title": "100% Offline-first",
+        "desc": "Create lots, confirm deliveries, scan containers — even without network. Auto-sync when connection returns."
+      },
+      {
+        "icon": "💳",
+        "title": "Built-in wallet & escrow",
+        "desc": "Mobile payment (Flooz, T-Money, MoMo), automatic escrow during delivery, transparent commissions."
+      },
+      {
+        "icon": "🚚",
+        "title": "Shared transport",
+        "desc": "Optimize routes, track each stop via QR code, confirm delivery in real-time with photo proof."
+      },
+      {
+        "icon": "🤖",
+        "title": "Anti-waste AI",
+        "desc": "Production recommendations based on actual demand from the last 7 days. Produce exactly what's needed."
+      },
+      {
+        "icon": "🌍",
+        "title": "Multi-country & multi-currency",
+        "desc": "Togo (XOF), Cameroon (XAF), Ghana (GHS), Senegal, Benin, Ivory Coast — one account, all markets."
+      }
+    ]
+  },
+  "how": {
+    "badge": "How it works",
+    "title": "Operational in 3 steps",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Sign up",
+        "desc": "Create your manager account in 2 minutes. Your workspace is ready immediately with your product catalog."
+      },
+      {
+        "num": "02",
+        "title": "Set up your team",
+        "desc": "Add your drivers and resellers. Each gets a mobile app with features tailored to their role."
+      },
+      {
+        "num": "03",
+        "title": "Produce & deliver",
+        "desc": "Create batches, track deliveries in real-time, collect payments via mobile money. Zero paper, zero cash."
+      }
+    ]
+  },
+  "pricing": {
+    "badge": "Simple pricing",
+    "title": "A price that fits every business size",
+    "monthly": "/month",
+    "cta": "Get started",
+    "cta_enterprise": "Contact us",
+    "popular": "Popular",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "7,500",
+        "currency": "FCFA",
+        "desc": "To start your digital transformation",
+        "features": [
+          "1 manager + 2 drivers + 5 resellers",
+          "Unlimited product catalog",
+          "Full offline mode",
+          "Wallet & mobile payment",
+          "WhatsApp support"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "15,000",
+        "currency": "FCFA",
+        "desc": "For growing producers",
+        "popular": true,
+        "features": [
+          "1 manager + 10 drivers + 50 resellers",
+          "Everything in Starter",
+          "AI production recommendation",
+          "Shared transport",
+          "Stock & expiry alerts",
+          "Analytics dashboard",
+          "Priority support"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "30,000",
+        "currency": "FCFA",
+        "desc": "For large operations",
+        "features": [
+          "Unlimited drivers & resellers",
+          "Everything in Premium",
+          "Multi-site & multi-country",
+          "API & integrations",
+          "Dedicated account manager",
+          "99.9% SLA",
+          "On-site training"
+        ]
+      }
+    ]
+  },
+  "cta_section": {
+    "title": "Ready to digitize your production?",
+    "subtitle": "Join producers who reduced their losses by 30% with AAANYIM.",
+    "cta": "Start now",
+    "demo": "Schedule a demo"
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Let's talk about your project",
+    "subtitle": "Our team responds within 24 hours.",
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone (WhatsApp)",
+      "company": "Company name",
+      "sector": "Industry",
+      "sectors": ["Sachet water", "Bakery", "Gas", "Grocery", "Other"],
+      "message": "Your message",
+      "submit": "Send",
+      "success": "Message sent! We'll respond within 24 hours.",
+      "whatsapp": "Or message us on WhatsApp"
+    }
+  },
+  "footer": {
+    "desc": "SaaS ERP for digitizing perishable goods in Africa.",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "links": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "demo": "Demo",
+      "about": "About",
+      "careers": "Careers",
+      "blog": "Blog",
+      "privacy": "Privacy",
+      "terms": "Terms"
+    },
+    "copyright": "© 2026 AAANYIM. All rights reserved.",
+    "made": "Made with ❤️ in Lomé, Togo"
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "nav": {
+    "features": "Fonctionnalités",
+    "how": "Comment ça marche",
+    "pricing": "Tarifs",
+    "contact": "Contact",
+    "cta": "Demander une démo"
+  },
+  "hero": {
+    "badge": "ERP SaaS pour l'Afrique de l'Ouest",
+    "title_1": "Zéro gaspillage.",
+    "title_2": "Zéro perte.",
+    "title_3": "100% traçabilité.",
+    "subtitle": "AAANYIM digitalise la chaîne de production, livraison et vente des produits périssables — eau en sachets, boulangerie, gaz, épicerie — pour les producteurs africains.",
+    "cta_primary": "Commencer gratuitement",
+    "cta_secondary": "Voir la démo",
+    "trust": "Déjà utilisé dans 3 pays d'Afrique de l'Ouest"
+  },
+  "stats": {
+    "countries": "Pays couverts",
+    "revenue": "Sources de revenus",
+    "offline": "Fonctionne offline",
+    "training": "Temps de formation"
+  },
+  "problem": {
+    "badge": "Le problème",
+    "title": "Les producteurs africains perdent jusqu'à 30% de leur production",
+    "cards": [
+      {
+        "icon": "📋",
+        "title": "Gestion au cahier et WhatsApp",
+        "desc": "Pas de visibilité sur les stocks, les commandes se perdent, impossible de planifier la production."
+      },
+      {
+        "icon": "💸",
+        "title": "Cash en transit non traçable",
+        "desc": "Les livreurs collectent l'argent sans reçu. Les pertes et écarts sont quotidiens, sans moyen de vérifier."
+      },
+      {
+        "icon": "🗑️",
+        "title": "Périmés et invendus",
+        "desc": "Sans données de demande, les producteurs produisent à l'aveugle. Résultat : surstock ou rupture."
+      }
+    ]
+  },
+  "solution": {
+    "badge": "La solution AAANYIM",
+    "title": "Un ERP complet pensé pour le terrain africain",
+    "features": [
+      {
+        "icon": "📦",
+        "title": "Catalogue multi-secteurs",
+        "desc": "Eau, gaz, boulangerie, épicerie — un seul outil pour tous les produits périssables. Catalogue configurable par tenant."
+      },
+      {
+        "icon": "📡",
+        "title": "100% Offline-first",
+        "desc": "Créez des lots, confirmez des livraisons, scannez des bonbonnes — même sans réseau. Sync automatique au retour de connexion."
+      },
+      {
+        "icon": "💳",
+        "title": "Wallet intégré & escrow",
+        "desc": "Paiement mobile (Flooz, T-Money, MoMo), séquestre automatique pendant la livraison, commissions transparentes."
+      },
+      {
+        "icon": "🚚",
+        "title": "Transport mutualisé",
+        "desc": "Optimisez les tournées, suivez chaque arrêt par QR code, confirmez la livraison en temps réel avec preuve photo."
+      },
+      {
+        "icon": "🤖",
+        "title": "IA anti-gaspillage",
+        "desc": "Recommandations de production basées sur la demande réelle des 7 derniers jours. Produisez juste ce qu'il faut."
+      },
+      {
+        "icon": "🌍",
+        "title": "Multi-pays & multi-devises",
+        "desc": "Togo (XOF), Cameroun (XAF), Ghana (GHS), Sénégal, Bénin, Côte d'Ivoire — un compte, tous les marchés."
+      }
+    ]
+  },
+  "how": {
+    "badge": "Comment ça marche",
+    "title": "Opérationnel en 3 étapes",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Inscrivez-vous",
+        "desc": "Créez votre compte gérant en 2 minutes. Votre espace est prêt immédiatement avec votre catalogue produits."
+      },
+      {
+        "num": "02",
+        "title": "Configurez votre équipe",
+        "desc": "Ajoutez vos livreurs et revendeurs. Chacun a son application mobile avec les fonctions adaptées à son rôle."
+      },
+      {
+        "num": "03",
+        "title": "Produisez et livrez",
+        "desc": "Créez vos lots, suivez les livraisons en temps réel, encaissez via mobile money. Zéro papier, zéro cash."
+      }
+    ]
+  },
+  "pricing": {
+    "badge": "Tarifs simples",
+    "title": "Un prix adapté à chaque taille d'entreprise",
+    "monthly": "/mois",
+    "cta": "Commencer",
+    "cta_enterprise": "Nous contacter",
+    "popular": "Populaire",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "7 500",
+        "currency": "FCFA",
+        "desc": "Pour démarrer la digitalisation",
+        "features": [
+          "1 gérant + 2 livreurs + 5 revendeurs",
+          "Catalogue produits illimité",
+          "Mode offline complet",
+          "Wallet & paiement mobile",
+          "Support WhatsApp"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "15 000",
+        "currency": "FCFA",
+        "desc": "Pour les producteurs en croissance",
+        "popular": true,
+        "features": [
+          "1 gérant + 10 livreurs + 50 revendeurs",
+          "Tout Starter inclus",
+          "IA recommandation production",
+          "Transport mutualisé",
+          "Alertes stock & péremption",
+          "Dashboard analytics",
+          "Support prioritaire"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "30 000",
+        "currency": "FCFA",
+        "desc": "Pour les grandes structures",
+        "features": [
+          "Livreurs & revendeurs illimités",
+          "Tout Premium inclus",
+          "Multi-sites & multi-pays",
+          "API & intégrations",
+          "Account manager dédié",
+          "SLA 99.9%",
+          "Formation sur site"
+        ]
+      }
+    ]
+  },
+  "cta_section": {
+    "title": "Prêt à digitaliser votre production ?",
+    "subtitle": "Rejoignez les producteurs qui ont réduit leurs pertes de 30% grâce à AAANYIM.",
+    "cta": "Démarrer maintenant",
+    "demo": "Planifier une démo"
+  },
+  "contact": {
+    "badge": "Contact",
+    "title": "Parlons de votre projet",
+    "subtitle": "Notre équipe répond en moins de 24h.",
+    "form": {
+      "name": "Nom complet",
+      "email": "Email",
+      "phone": "Téléphone (WhatsApp)",
+      "company": "Nom de l'entreprise",
+      "sector": "Secteur d'activité",
+      "sectors": ["Eau en sachets", "Boulangerie", "Gaz", "Épicerie", "Autre"],
+      "message": "Votre message",
+      "submit": "Envoyer",
+      "success": "Message envoyé ! Nous vous répondons sous 24h.",
+      "whatsapp": "Ou écrivez-nous sur WhatsApp"
+    }
+  },
+  "footer": {
+    "desc": "ERP SaaS pour la digitalisation des produits périssables en Afrique.",
+    "product": "Produit",
+    "company": "Entreprise",
+    "legal": "Légal",
+    "links": {
+      "features": "Fonctionnalités",
+      "pricing": "Tarifs",
+      "demo": "Démo",
+      "about": "À propos",
+      "careers": "Carrières",
+      "blog": "Blog",
+      "privacy": "Confidentialité",
+      "terms": "CGU"
+    },
+    "copyright": "© 2026 AAANYIM. Tous droits réservés.",
+    "made": "Fait avec ❤️ à Lomé, Togo"
+  }
+}

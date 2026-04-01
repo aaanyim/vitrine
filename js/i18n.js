@@ -9,7 +9,7 @@ const I18N = {
 
   async init() {
     const saved = localStorage.getItem('aaanyim-lang') || navigator.language.slice(0, 2);
-    this.current = ['fr', 'en'].includes(saved) ? saved : 'fr';
+    this.current = ['fr', 'en'].includes(saved) ? saved : 'en';
 
     await Promise.all([
       this.load('fr'),

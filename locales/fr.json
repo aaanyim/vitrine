@@ -33,16 +33,19 @@
     "cards": [
       {
         "icon": "👁️",
+        "lottie": "https://assets8.lottiefiles.com/packages/lf20_M9p23l.json",
         "title": "Pas de contrôle à distance",
         "desc": "Quand vous n'êtes pas sur place, impossible de savoir ce qui se passe. Les stocks fondent, l'argent disparaît."
       },
       {
         "icon": "💸",
+        "lottie": "https://assets3.lottiefiles.com/packages/lf20_ystsffqy.json",
         "title": "Cash incontrôlé",
         "desc": "Les livreurs repartent avec l'argent, pas de reçu, pas de trace. Vous découvrez les écarts trop tard."
       },
       {
         "icon": "📉",
+        "lottie": "https://assets3.lottiefiles.com/datafiles/HF2l8DiOyOT4dwI/data.json",
         "title": "Pertes invisibles",
         "desc": "Produits périmés, bouteilles non retournées, commandes oubliées — sans outil, vous ne savez même pas combien vous perdez."
       }
@@ -68,31 +71,37 @@
     "features": [
       {
         "icon": "📱",
+        "lottie": "https://assets2.lottiefiles.com/packages/lf20_qp1q7mct.json",
         "title": "Gérez tout depuis votre téléphone",
         "desc": "Production, stocks, commandes, livraisons, paiements — tout dans une seule application mobile."
       },
       {
         "icon": "📡",
+        "lottie": "https://assets3.lottiefiles.com/datafiles/LM7IXg9BbuCdrfl/data.json",
         "title": "Ça marche même sans internet",
         "desc": "Vos livreurs travaillent sur le terrain, même en zone blanche. Tout se synchronise automatiquement."
       },
       {
         "icon": "💰",
+        "lottie": "https://assets5.lottiefiles.com/packages/lf20_5buYwf.json",
         "title": "Fini le cash qui disparaît",
         "desc": "Paiement mobile intégré. Chaque transaction est tracée. Plus d'écart entre ce qui part et ce qui rentre."
       },
       {
         "icon": "📊",
+        "lottie": "https://assets6.lottiefiles.com/packages/lf20_06a6pf9i.json",
         "title": "Produisez la bonne quantité",
         "desc": "L'application analyse vos ventes et vous dit combien produire demain. Moins de gaspillage, plus de marge."
       },
       {
         "icon": "🚚",
+        "lottie": "https://assets4.lottiefiles.com/packages/lf20_jmejybvu.json",
         "title": "Suivez chaque livraison",
         "desc": "Vos livreurs confirment chaque arrêt. Vous voyez en temps réel ce qui est livré, vendu ou retourné."
       },
       {
         "icon": "🌍",
+        "lottie": "https://assets5.lottiefiles.com/packages/lf20_svy4ivvy.json",
         "title": "Développez-vous sans limites",
         "desc": "Multi-sites, multi-villes, multi-pays. Votre outil grandit avec vous, de 1 livreur à 100."
       }

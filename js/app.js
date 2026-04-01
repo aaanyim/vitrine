@@ -163,37 +163,7 @@ function initContactForm() {
   });
 }
 
-/* ── Phone Mockup ───────────────────────────────────────── */
+/* ── Phone Mockup (replaced by Lottie) ──────────────────── */
 function initPhoneAnimation() {
-  const screen = document.querySelector('.phone-screen');
-  if (!screen) return;
-
-  const dashboardItems = [
-    { label: 'Solde', value: '180 000', sub: 'XOF', bar: 75 },
-    { label: 'Lots actifs', value: '12', sub: '3 expirent bientot', bar: 40 },
-    { label: 'Livraisons', value: '8/12', sub: 'Aujourd\'hui', bar: 67 },
-    { label: 'Commission', value: '9 315', sub: 'FCFA ce mois', bar: 55 }
-  ];
-
-  screen.innerHTML = dashboardItems.map((v, i) => `
-    <div class="phone-stat" style="animation: fadeSlideIn 0.5s ${0.2 + i * 0.15}s both">
-      <div class="phone-stat-label">${v.label}</div>
-      <div class="phone-stat-value">${v.value}</div>
-      <div class="phone-stat-sub">${v.sub}</div>
-      <div class="phone-bar"><div class="phone-bar-fill" style="width:${v.bar}%; animation-delay:${0.5 + i * 0.2}s"></div></div>
-    </div>
-  `).join('');
-
-  // Add inline keyframes for phone stats
-  if (!document.getElementById('phone-keyframes')) {
-    const style = document.createElement('style');
-    style.id = 'phone-keyframes';
-    style.textContent = `
-      @keyframes fadeSlideIn {
-        from { opacity: 0; transform: translateY(10px); }
-        to { opacity: 1; transform: translateY(0); }
-      }
-    `;
-    document.head.appendChild(style);
-  }
+  // Hero now uses lottie-player directly in HTML
 }

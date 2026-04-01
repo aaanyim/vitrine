@@ -91,7 +91,10 @@ const I18N = {
     if (!Array.isArray(cards)) return;
     container.innerHTML = cards.map(c => `
       <div class="problem-card fade-up">
-        <span class="icon">${c.icon}</span>
+        ${c.lottie
+          ? `<lottie-player src="${c.lottie}" background="transparent" speed="1" loop autoplay style="width:80px;height:80px;margin-bottom:16px"></lottie-player>`
+          : `<span class="icon">${c.icon}</span>`
+        }
         <h3>${c.title}</h3>
         <p>${c.desc}</p>
       </div>
@@ -105,7 +108,10 @@ const I18N = {
     if (!Array.isArray(features)) return;
     container.innerHTML = features.map(f => `
       <div class="feature-card fade-up">
-        <div class="icon">${f.icon}</div>
+        ${f.lottie
+          ? `<lottie-player src="${f.lottie}" background="transparent" speed="1" loop autoplay style="width:64px;height:64px;margin-bottom:16px"></lottie-player>`
+          : `<div class="icon">${f.icon}</div>`
+        }
         <h3>${f.title}</h3>
         <p>${f.desc}</p>
       </div>

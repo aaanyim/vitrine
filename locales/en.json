@@ -33,16 +33,19 @@
     "cards": [
       {
         "icon": "👁️",
+        "lottie": "https://assets8.lottiefiles.com/packages/lf20_M9p23l.json",
         "title": "No remote control",
         "desc": "When you're not on site, you have no idea what's happening. Stock vanishes, money disappears."
       },
       {
         "icon": "💸",
+        "lottie": "https://assets3.lottiefiles.com/packages/lf20_ystsffqy.json",
         "title": "Uncontrolled cash",
         "desc": "Drivers leave with cash, no receipt, no trace. You find out about discrepancies too late."
       },
       {
         "icon": "📉",
+        "lottie": "https://assets3.lottiefiles.com/datafiles/HF2l8DiOyOT4dwI/data.json",
         "title": "Invisible losses",
         "desc": "Expired products, unreturned containers, forgotten orders — without a tool, you don't even know how much you're losing."
       }
@@ -68,31 +71,37 @@
     "features": [
       {
         "icon": "📱",
+        "lottie": "https://assets2.lottiefiles.com/packages/lf20_qp1q7mct.json",
         "title": "Manage everything from your phone",
         "desc": "Production, stock, orders, deliveries, payments — all in one mobile app."
       },
       {
         "icon": "📡",
+        "lottie": "https://assets3.lottiefiles.com/datafiles/LM7IXg9BbuCdrfl/data.json",
         "title": "Works even without internet",
         "desc": "Your drivers work in the field, even in dead zones. Everything syncs automatically."
       },
       {
         "icon": "💰",
+        "lottie": "https://assets5.lottiefiles.com/packages/lf20_5buYwf.json",
         "title": "No more disappearing cash",
         "desc": "Built-in mobile payment. Every transaction is tracked. No gap between what leaves and what comes back."
       },
       {
         "icon": "📊",
+        "lottie": "https://assets6.lottiefiles.com/packages/lf20_06a6pf9i.json",
         "title": "Produce the right amount",
         "desc": "The app analyzes your sales and tells you how much to produce tomorrow. Less waste, more margin."
       },
       {
         "icon": "🚚",
+        "lottie": "https://assets4.lottiefiles.com/packages/lf20_jmejybvu.json",
         "title": "Track every delivery",
         "desc": "Your drivers confirm each stop. You see in real-time what's delivered, sold, or returned."
       },
       {
         "icon": "🌍",
+        "lottie": "https://assets5.lottiefiles.com/packages/lf20_svy4ivvy.json",
         "title": "Scale without limits",
         "desc": "Multi-site, multi-city, multi-country. Your tool grows with you, from 1 driver to 100."
       }

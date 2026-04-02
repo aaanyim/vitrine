@@ -92,7 +92,7 @@ const I18N = {
     container.innerHTML = cards.map(c => `
       <div class="problem-card fade-up">
         ${c.lottie
-          ? `<lottie-player src="${c.lottie}" background="transparent" speed="1" loop autoplay style="width:80px;height:80px;margin-bottom:16px"></lottie-player>`
+          ? `<lottie-player src="${c.lottie}" background="transparent" speed="1" loop autoplay style="width:120px;height:120px;margin-bottom:16px"></lottie-player>`
           : `<span class="icon">${c.icon}</span>`
         }
         <h3>${c.title}</h3>

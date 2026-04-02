@@ -4,21 +4,22 @@
    ═══════════════════════════════════════════════════════════ */
 
 :root {
-  --teal-950: #00120F;
-  --teal-900: #004D40;
-  --teal-800: #00352E;
-  --teal-700: #004D40;
-  --teal-600: #00695C;
-  --teal-500: #00897B;
-  --teal-400: #26A69A;
-  --teal-300: #4DB6AC;
+  /* Palette basee sur #004D40 comme primaire */
+  --teal-950: #001A15;
+  --teal-900: #002E27;
+  --teal-800: #003D34;
+  --teal-700: #004D40;  /* ← Primary */
+  --teal-600: #005D4E;
+  --teal-500: #004D40;  /* ← boutons, CTA */
+  --teal-400: #00796B;  /* ← logo, texte accent */
+  --teal-300: #009688;
   --teal-100: #B2DFDB;
   --teal-50:  #E0F2F1;
   --amber:    #F59E0B;
   --amber-light: #FEF3C7;
   --bg-dark:  #0A0A0A;
   --bg-card:  rgba(255,255,255,0.03);
-  --border:   rgba(0,137,123,0.15);
+  --border:   rgba(0,77,64,0.25);
   --text-primary: #F9FAFB;
   --text-secondary: #9CA3AF;
   --text-muted: #6B7280;

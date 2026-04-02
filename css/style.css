@@ -78,7 +78,7 @@ img { max-width: 100%; display: block; }
 .nav-logo {
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-weight: 800; font-size: 24px;
-  color: var(--teal-100); letter-spacing: -0.5px;
+  color: var(--teal-500); letter-spacing: -0.5px;
 }
 .nav-links { display: flex; gap: 36px; align-items: center; }
 .nav-links a {
@@ -456,7 +456,7 @@ img { max-width: 100%; display: block; }
 .footer-brand { max-width: 280px; }
 .footer-logo {
   font-family: 'Plus Jakarta Sans'; font-size: 22px;
-  font-weight: 800; color: var(--teal-100);
+  font-weight: 800; color: var(--teal-500);
   margin-bottom: 16px;
 }
 .footer-desc { font-size: 14px; color: var(--text-muted); line-height: 1.6; }

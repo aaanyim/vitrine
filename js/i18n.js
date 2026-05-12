@@ -8,8 +8,8 @@ const I18N = {
   current: 'fr',
 
   async init() {
-    const saved = localStorage.getItem('aaanyim-lang') || navigator.language.slice(0, 2);
-    this.current = ['fr', 'en'].includes(saved) ? saved : 'en';
+    const saved = localStorage.getItem('aaanyim-lang');
+    this.current = saved && ['fr', 'en'].includes(saved) ? saved : 'fr';
 
     await Promise.all([
       this.load('fr'),
@@ -90,7 +90,7 @@ const I18N = {
     const cards = this.t('problem.cards');
     if (!Array.isArray(cards)) return;
     container.innerHTML = cards.map(c => `
-      <div class="problem-card fade-up">
+      <div class="problem-card">
         ${c.lottie
           ? `<lottie-player src="${c.lottie}" background="transparent" speed="1" loop autoplay style="width:120px;height:120px;margin-bottom:16px"></lottie-player>`
           : `<span class="icon">${c.icon}</span>`
@@ -107,7 +107,7 @@ const I18N = {
     const features = this.t('solution.features');
     if (!Array.isArray(features)) return;
     container.innerHTML = features.map(f => `
-      <div class="feature-card fade-up">
+      <div class="feature-card">
         ${f.lottie
           ? `<lottie-player src="${f.lottie}" background="transparent" speed="1" loop autoplay style="width:64px;height:64px;margin-bottom:16px"></lottie-player>`
           : `<div class="icon">${f.icon}</div>`
@@ -124,7 +124,7 @@ const I18N = {
     const steps = this.t('how.steps');
     if (!Array.isArray(steps)) return;
     container.innerHTML = steps.map(s => `
-      <div class="step fade-up">
+      <div class="step">
         <div class="step-num">${s.num}</div>
         <h3>${s.title}</h3>
         <p>${s.desc}</p>
@@ -142,7 +142,7 @@ const I18N = {
     const popularLabel = this.t('pricing.popular');
     if (!Array.isArray(plans)) return;
     container.innerHTML = plans.map(p => `
-      <div class="pricing-card fade-up ${p.popular ? 'popular' : ''}">
+      <div class="pricing-card ${p.popular ? 'popular' : ''}">
         ${p.popular ? `<span class="pricing-badge">${popularLabel}</span>` : ''}
         <div class="pricing-name">${p.name}</div>
         <div class="pricing-desc">${p.desc}</div>
@@ -166,7 +166,7 @@ const I18N = {
     const sectors = this.t('sectors.list');
     if (!Array.isArray(sectors)) return;
     container.innerHTML = sectors.map((s, i) => `
-      <div class="sector-card fade-up ${i === sectors.length - 1 ? 'more' : ''}">
+      <div class="sector-card ${i === sectors.length - 1 ? 'more' : ''}">
         <span class="sector-icon">${s.icon}</span>
         <h3>${s.name}</h3>
         <p>${s.desc}</p>

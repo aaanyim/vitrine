@@ -63,6 +63,9 @@ function initNavbar() {
 
 /* ── Scroll Animations ──────────────────────────────────── */
 function initScrollAnimations() {
+  // Progressive enhancement: animations only if JS loaded
+  document.body.classList.add('js-ready');
+
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
@@ -70,16 +73,23 @@ function initScrollAnimations() {
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.08, rootMargin: '0px 0px -60px 0px' });
+  }, { threshold: 0.05, rootMargin: '0px 0px 0px 0px' });
 
   observeAll(observer);
 
-  // Re-observe after language switch
+  // Re-observe after language switch (I18N.apply rebuilds DOM via innerHTML)
   const origApply = I18N.apply.bind(I18N);
   I18N.apply = function() {
     origApply();
     setTimeout(() => observeAll(observer), 50);
   };
+
+  // Safety net: if observer fails, force all visible after 2s
+  setTimeout(() => {
+    document.querySelectorAll('.fade-up:not(.visible)').forEach(el => {
+      el.classList.add('visible');
+    });
+  }, 2000);
 }
 
 function observeAll(observer) {

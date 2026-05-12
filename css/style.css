@@ -516,11 +516,17 @@ img { max-width: 100%; display: block; }
 .sector-card.more:hover { border-color: var(--teal-400); background: rgba(0,137,123,0.06); }
 
 /* ── ANIMATIONS ─────────────────────────────────────────── */
-.fade-up {
+/* fade-up invisible SEULEMENT si JS a charge (progressive enhancement) */
+.js-ready .fade-up {
   opacity: 0; transform: translateY(40px);
   transition: all 0.7s cubic-bezier(0.16, 1, 0.3, 1);
 }
-.fade-up.visible { opacity: 1; transform: translateY(0); }
+.js-ready .fade-up.visible { opacity: 1; transform: translateY(0); }
+
+/* Si JS echoue ou prefers-reduced-motion, tout est visible */
+@media (prefers-reduced-motion: reduce) {
+  .js-ready .fade-up { opacity: 1; transform: none; transition: none; }
+}
 
 /* Staggered children */
 .fade-up:nth-child(2) { transition-delay: 0.08s; }
@@ -576,6 +582,32 @@ img { max-width: 100%; display: block; }
   .contact .container { grid-template-columns: 1fr; gap: 48px; }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
 }
+
+/* ── LEGAL PAGES ────────────────────────────────────────── */
+.legal-page { padding: 140px 0 80px; }
+.legal-page .container-narrow { max-width: 800px; }
+.legal-page h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 2.4rem; font-weight: 800; margin-bottom: 8px;
+}
+.legal-page .legal-date { color: var(--text-muted); font-size: 14px; margin-bottom: 48px; }
+.legal-page h2 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 1.3rem; font-weight: 700; color: var(--teal-400); margin: 40px 0 16px;
+}
+.legal-page p, .legal-page li { color: var(--text-secondary); line-height: 1.8; font-size: 15px; margin-bottom: 12px; }
+.legal-page ul { padding-left: 24px; margin-bottom: 16px; }
+.legal-page a { color: var(--teal-400); text-decoration: underline; }
+.legal-back { display: inline-block; margin-bottom: 32px; color: var(--teal-400); font-weight: 600; font-size: 14px; }
+.legal-back:hover { text-decoration: underline; }
+.footer-legal-links a { color: var(--text-muted); }
+.footer-legal-links a:hover { color: var(--teal-400); }
+.footer-socials { display: flex; gap: 16px; margin-top: 16px; }
+.footer-socials a {
+  color: var(--text-muted); transition: color 0.2s;
+  display: flex; align-items: center;
+}
+.footer-socials a:hover { color: var(--teal-400); }
 
 @media (max-width: 768px) {
   .nav-links { display: none; }

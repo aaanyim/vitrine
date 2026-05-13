@@ -150,7 +150,7 @@ function initContactForm() {
     btn.style.opacity = '0.6';
 
     try {
-      await fetch('https://formspree.io/f/xwpkgjvd', {
+      await fetch('https://formspree.io/f/mqenjvkv', {
         method: 'POST',
         body: data,
         headers: { 'Accept': 'application/json' }

@@ -130,53 +130,53 @@
   },
   "pricing": {
     "badge": "Tarifs transparents",
-    "title": "Commencez gratuitement, grandissez à votre rythme",
-    "monthly": "/mois",
+    "title": "Gratuit. Vous ne payez que ce que vous consommez.",
+    "monthly": "",
     "cta": "Commencer",
     "cta_enterprise": "Nous contacter",
-    "popular": "Populaire",
+    "popular": "Recommande",
     "plans": [
       {
-        "name": "Starter",
-        "price": "7 500",
+        "name": "Plateforme",
+        "price": "0",
         "currency": "FCFA",
-        "desc": "Pour les petits producteurs",
+        "desc": "Gratuit pour tous les entrepreneurs",
         "features": [
-          "Jusqu'à 2 livreurs",
-          "5 revendeurs",
+          "Livreurs et revendeurs illimites",
+          "Stocks, commandes, livraisons",
+          "Paiement Mobile Money integre",
           "Mode hors-ligne",
-          "Paiement mobile",
+          "Marketplace et vitrine publique",
           "Support WhatsApp"
         ]
       },
       {
-        "name": "Pro",
-        "price": "15 000",
-        "currency": "FCFA",
-        "desc": "Pour les producteurs en croissance",
+        "name": "Commission",
+        "price": "3%",
+        "currency": "",
+        "desc": "Uniquement quand vous vendez",
         "popular": true,
         "features": [
-          "Jusqu'à 10 livreurs",
-          "50 revendeurs",
-          "Tout Starter inclus",
-          "Recommandations de production",
-          "Alertes stock et péremption",
-          "Tableau de bord avancé",
-          "Support prioritaire"
+          "3% preleve sur chaque vente",
+          "Pas de vente = pas de frais",
+          "Paiement securise (escrow)",
+          "Tracabilite complete",
+          "Recus PDF automatiques",
+          "Tableau de bord avance"
         ]
       },
       {
-        "name": "Enterprise",
+        "name": "Sur mesure",
         "price": "Sur mesure",
         "currency": "",
         "desc": "Pour les grandes structures",
         "features": [
-          "Livreurs et revendeurs illimités",
-          "Tout Pro inclus",
+          "Tout inclus",
           "Multi-sites et multi-pays",
-          "Intégrations sur mesure",
-          "Gestionnaire de compte dédié",
-          "Formation sur site"
+          "Integrations sur mesure",
+          "Gestionnaire de compte dedie",
+          "Formation sur site",
+          "Commission negociable"
         ]
       }
     ]

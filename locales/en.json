@@ -130,53 +130,53 @@
   },
   "pricing": {
     "badge": "Transparent pricing",
-    "title": "Start free, grow at your pace",
-    "monthly": "/month",
+    "title": "Free. You only pay for what you use.",
+    "monthly": "",
     "cta": "Get started",
     "cta_enterprise": "Contact us",
-    "popular": "Popular",
+    "popular": "Recommended",
     "plans": [
       {
-        "name": "Starter",
-        "price": "7,500",
+        "name": "Platform",
+        "price": "0",
         "currency": "FCFA",
-        "desc": "For small producers",
+        "desc": "Free for all entrepreneurs",
         "features": [
-          "Up to 2 drivers",
-          "5 resellers",
+          "Unlimited drivers & resellers",
+          "Stocks, orders, deliveries",
+          "Mobile Money payment",
           "Offline mode",
-          "Mobile payment",
+          "Marketplace & public storefront",
           "WhatsApp support"
         ]
       },
       {
-        "name": "Pro",
-        "price": "15,000",
-        "currency": "FCFA",
-        "desc": "For growing producers",
+        "name": "Commission",
+        "price": "3%",
+        "currency": "",
+        "desc": "Only when you sell",
         "popular": true,
         "features": [
-          "Up to 10 drivers",
-          "50 resellers",
-          "Everything in Starter",
-          "Production recommendations",
-          "Stock & expiry alerts",
-          "Advanced dashboard",
-          "Priority support"
+          "3% taken on each sale",
+          "No sale = no fee",
+          "Secure payment (escrow)",
+          "Full traceability",
+          "Automatic PDF receipts",
+          "Advanced dashboard"
         ]
       },
       {
-        "name": "Enterprise",
+        "name": "Custom",
         "price": "Custom",
         "currency": "",
         "desc": "For large operations",
         "features": [
-          "Unlimited drivers & resellers",
-          "Everything in Pro",
+          "Everything included",
           "Multi-site & multi-country",
           "Custom integrations",
           "Dedicated account manager",
-          "On-site training"
+          "On-site training",
+          "Negotiable commission"
         ]
       }
     ]

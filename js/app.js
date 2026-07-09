@@ -164,7 +164,7 @@ function initContactForm() {
       const msg = data.get('message') || '';
       const company = data.get('company') || '';
       const text = encodeURIComponent(`Bonjour, je suis ${name} de ${company}. ${msg}`);
-      window.open(`https://wa.me/237658804837?text=${text}`, '_blank');
+      window.open(`https://wa.me/22890897972?text=${text}`, '_blank');
     }
 
     btn.disabled = false;

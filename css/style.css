@@ -598,6 +598,10 @@ img { max-width: 100%; display: block; }
 .legal-page p, .legal-page li { color: var(--text-secondary); line-height: 1.8; font-size: 15px; margin-bottom: 12px; }
 .legal-page ul { padding-left: 24px; margin-bottom: 16px; }
 .legal-page a { color: var(--teal-400); text-decoration: underline; }
+.legal-table-wrap { overflow-x: auto; margin-bottom: 20px; }
+.legal-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.legal-table th, .legal-table td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid rgba(128,128,128,0.25); color: var(--text-secondary); line-height: 1.5; }
+.legal-table th { color: var(--text-primary, inherit); font-weight: 700; }
 .legal-back { display: inline-block; margin-bottom: 32px; color: var(--teal-400); font-weight: 600; font-size: 14px; }
 .legal-back:hover { text-decoration: underline; }
 .footer-legal-links a { color: var(--text-muted); }
@@ -623,3 +627,19 @@ img { max-width: 100%; display: block; }
   .footer-grid { grid-template-columns: 1fr; }
   .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
 }
+
+/* Exemples de conversations avec l'assistant (section "Chaque personne a son interface") */
+.chat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; text-align: left; align-items: start; }
+.chat-card { background: #0B141A; border-radius: 20px; overflow: hidden; box-shadow: 0 12px 40px rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.08); }
+.chat-head { background: #1F2C34; padding: 14px 16px 12px; position: relative; }
+.chat-title { color: #fff; font-weight: 700; font-size: 15px; margin: 0; padding-right: 70px; }
+.chat-desc { color: rgba(255,255,255,0.65); font-size: 13px; margin: 4px 0 0; line-height: 1.4; }
+.chat-tag { position: absolute; top: 12px; right: 12px; font-size: 11px; font-weight: 700; color: #0B141A; background: #E9C46A; border-radius: 999px; padding: 2px 8px; }
+.chat-body { padding: 14px 12px 16px; display: flex; flex-direction: column; gap: 6px; }
+.chat-bubble { max-width: 88%; padding: 8px 10px; border-radius: 10px; font-size: 13.5px; line-height: 1.45; color: #E9EDEF; word-wrap: break-word; }
+.chat-bot { background: #1F2C34; align-self: flex-start; border-top-left-radius: 2px; }
+.chat-me { background: #005C4B; align-self: flex-end; border-top-right-radius: 2px; }
+.chat-btns { display: flex; flex-direction: column; gap: 4px; max-width: 88%; align-self: flex-start; width: 88%; }
+.chat-btn { background: #1F2C34; color: #53BDEB; text-align: center; font-size: 13.5px; font-weight: 600; padding: 8px 10px; border-radius: 10px; }
+.form-notice { font-size: 12.5px; line-height: 1.5; color: var(--text-muted); margin: 10px 0 0; }
+.form-notice a { color: var(--teal-400); }

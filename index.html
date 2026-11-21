@@ -2,12 +2,12 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AAANYIM — Commandez par WhatsApp chez les commerces pres de chez vous</title>
-  <meta name="description" content="Commandez par WhatsApp chez les commerces pres de chez vous. Rien a installer pour les clients. Pour les commercants : une appli legere pour gerer boutique, stocks et livraisons.">
-  <meta name="keywords" content="commande WhatsApp, commerce Afrique, marketplace, vitrine en ligne, gestion boutique, livraison, paiement mobile">
-  <meta property="og:title" content="AAANYIM — Commandez par WhatsApp chez les commerces pres de chez vous">
-  <meta property="og:description" content="Rien a installer pour les clients : commandez par WhatsApp en quelques secondes. Pour les commercants : une appli legere et une gestion complete.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>AAANYIM — Les commerces près de chez vous, dans une seule appli</title>
+  <meta name="description" content="Trouvez, commandez, réservez et suivez chez les commerces près de chez vous, au Togo et au Cameroun. Installez l'application en 3 gestes, ou commandez sur WhatsApp.">
+  <meta name="theme-color" content="#0A3D2F">
+  <meta property="og:title" content="AAANYIM — Les commerces près de chez vous, dans une seule appli">
+  <meta property="og:description" content="Trouvez, commandez, réservez et suivez. Installez l'application en 3 gestes, ou commandez sur WhatsApp. Togo · Cameroun.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.aaanyim.net">
   <meta property="og:image" content="https://www.aaanyim.net/img/og-image.png">
@@ -20,251 +20,11 @@
   <link rel="icon" type="image/svg+xml" href="/img/favicon.svg?v=4">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png?v=4">
   <link rel="apple-touch-icon" href="/img/apple-touch-icon.png?v=2">
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
-<style>
-:root {
-  --forest: #0A3D2F;
-  --forest-light: #0E4D3A;
-  --forest-dark: #072E23;
-  --gold: #C8960C;
-  --gold-light: #E8B84D;
-  --terre: #B84233;
-  --obsidian: #0F0F0F;
-  --parchemin: #FAFAF5;
-  --sable: #F0EDE6;
-  --argile: #E0DDD6;
-  --pierre: #6B6B6B;
-  --succes: #059669;
-  --radius: 12px;
-  --radius-sm: 8px;
-  --radius-lg: 16px;
-  --radius-xl: 24px;
-  --max-w: 1200px;
-}
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
-body { font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif; color: var(--obsidian); background: var(--parchemin); overflow-x: hidden; -webkit-font-smoothing: antialiased; }
-a { text-decoration: none; color: inherit; }
-img { max-width: 100%; display: block; }
-.container { max-width: var(--max-w); margin: 0 auto; padding: 0 24px; }
-.section { padding: 100px 0; }
-.navbar { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; background: rgba(10,61,47,0.97); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(255,255,255,0.08); transition: all 0.3s; }
-.nav-inner { height: 64px; display: flex; align-items: center; justify-content: space-between; max-width: var(--max-w); margin: 0 auto; padding: 0 24px; }
-.nav-logo { display: flex; align-items: center; gap: 12px; }
-.nav-logo svg { height: 28px; width: auto; }
-.nav-logo span { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 20px; color: #FFFFFF; letter-spacing: -0.01em; }
-.nav-links { display: flex; gap: 28px; align-items: center; }
-.nav-links a { color: rgba(255,255,255,0.7); font-size: 14px; font-weight: 500; transition: color 0.2s; }
-.nav-links a:hover { color: #FFFFFF; }
-.nav-cta { background: var(--gold); color: var(--forest-dark) !important; padding: 9px 20px; border-radius: var(--radius-sm); font-size: 14px; font-weight: 700; transition: all 0.2s; border: none; cursor: pointer; opacity: 1 !important; }
-.nav-cta:hover { background: var(--gold-light); transform: translateY(-1px); }
-.nav-lang { display: flex; gap: 4px; background: rgba(255,255,255,0.1); border-radius: 8px; padding: 3px; }
-.nav-lang button { padding: 5px 10px; border: none; border-radius: 6px; font-size: 12px; font-weight: 600; cursor: pointer; transition: all 0.2s; background: transparent; color: rgba(255,255,255,0.5); }
-.nav-lang button.active { background: rgba(255,255,255,0.2); color: #FFFFFF; }
-.nav-burger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 8px; }
-.nav-burger span { display: block; width: 22px; height: 2px; background: #FFFFFF; border-radius: 2px; transition: all 0.3s; }
-.hero { min-height: 100vh; display: flex; align-items: center; padding-top: 64px; position: relative; overflow: hidden; background: var(--forest); }
-.hero::before { content: ''; position: absolute; top: -20%; right: -10%; width: 800px; height: 800px; background: radial-gradient(circle, rgba(200,150,12,0.08) 0%, transparent 70%); pointer-events: none; }
-.hero::after { content: ''; position: absolute; bottom: -30%; left: -15%; width: 600px; height: 600px; background: radial-gradient(circle, rgba(184,66,51,0.06) 0%, transparent 70%); pointer-events: none; }
-.hero .container { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; position: relative; z-index: 1; }
-.hero-content { max-width: 560px; }
-.hero-badge { display: inline-block; background: rgba(200,150,12,0.15); color: var(--gold-light); font-size: 13px; font-weight: 600; letter-spacing: 0.5px; padding: 6px 16px; border-radius: 20px; margin-bottom: 24px; text-transform: uppercase; border: 1px solid rgba(200,150,12,0.25); }
-.hero-title { font-family: 'Space Grotesk', sans-serif; font-size: clamp(38px, 5vw, 56px); font-weight: 700; line-height: 1.08; letter-spacing: -1.5px; margin-bottom: 20px; color: #FFFFFF; }
-.hero-title .accent { color: var(--gold); }
-.hero-subtitle { font-size: 17px; line-height: 1.7; color: rgba(255,255,255,0.65); margin-bottom: 36px; }
-.hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 40px; }
-.btn-primary { background: var(--gold); color: var(--forest-dark); padding: 14px 28px; border-radius: var(--radius-sm); font-size: 15px; font-weight: 700; transition: all 0.25s; border: none; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; }
-.btn-primary:hover { background: var(--gold-light); transform: translateY(-1px); box-shadow: 0 6px 24px rgba(200,150,12,0.3); }
-.btn-secondary { background: transparent; color: #FFFFFF; padding: 14px 28px; border-radius: var(--radius-sm); font-size: 15px; font-weight: 600; border: 1.5px solid rgba(255,255,255,0.25); transition: all 0.25s; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; font-family: 'Plus Jakarta Sans', sans-serif; }
-.btn-secondary:hover { border-color: rgba(255,255,255,0.5); background: rgba(255,255,255,0.05); }
-.hero-trust { display: flex; align-items: center; gap: 10px; font-size: 14px; color: rgba(255,255,255,0.45); }
-.hero-trust .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--succes); animation: pulse 2s infinite; }
-@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
-.hero-visual { display: flex; justify-content: center; align-items: center; }
-.hero-ecg { opacity: 0.07; }
-.stats { border-top: 1px solid var(--argile); border-bottom: 1px solid var(--argile); padding: 48px 0; background: var(--sable); }
-.stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 32px; text-align: center; }
-.stat-number { font-family: 'Space Grotesk', sans-serif; font-size: 36px; font-weight: 700; color: var(--forest); margin-bottom: 4px; }
-.stat-label { font-size: 14px; color: var(--pierre); }
-.section-badge { display: inline-block; background: rgba(10,61,47,0.08); color: var(--forest); font-size: 13px; font-weight: 600; letter-spacing: 0.5px; padding: 6px 16px; border-radius: 20px; margin-bottom: 20px; text-transform: uppercase; }
-.section-title { font-family: 'Space Grotesk', sans-serif; font-size: clamp(28px, 4vw, 42px); font-weight: 700; line-height: 1.15; letter-spacing: -0.5px; margin-bottom: 16px; color: var(--obsidian); }
-.section-subtitle { font-size: 17px; color: var(--pierre); max-width: 600px; line-height: 1.7; }
-.problem { text-align: center; background: var(--parchemin); }
-.problem-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 48px; }
-.problem-card { background: #FFFFFF; border: 1px solid var(--argile); border-radius: var(--radius-lg); padding: 32px 24px; text-align: left; transition: all 0.3s; }
-.problem-card:hover { border-color: var(--terre); transform: translateY(-3px); box-shadow: 0 8px 24px rgba(184,66,51,0.08); }
-.problem-card .icon { font-size: 32px; margin-bottom: 16px; display: block; }
-.problem-card h3 { font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 8px; color: var(--obsidian); }
-.problem-card p { font-size: 14px; color: var(--pierre); line-height: 1.6; }
-.features { text-align: center; background: var(--sable); }
-.features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 48px; }
-.feature-card { background: #FFFFFF; border: 1px solid var(--argile); border-radius: var(--radius-lg); padding: 32px 24px; text-align: left; transition: all 0.3s; position: relative; overflow: hidden; }
-.feature-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--forest), var(--gold)); opacity: 0; transition: opacity 0.3s; }
-.feature-card:hover::before { opacity: 1; }
-.feature-card:hover { border-color: var(--forest); transform: translateY(-3px); box-shadow: 0 8px 24px rgba(10,61,47,0.08); }
-.feature-card .icon { width: 48px; height: 48px; border-radius: var(--radius-sm); background: rgba(10,61,47,0.08); display: flex; align-items: center; justify-content: center; font-size: 24px; margin-bottom: 16px; }
-.feature-card h3 { font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 8px; color: var(--obsidian); }
-.feature-card p { font-size: 14px; color: var(--pierre); line-height: 1.6; }
-.sectors { text-align: center; background: var(--parchemin); }
-.sectors-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 40px; }
-.sectors-grid .sector-card:last-child:nth-child(3n+1) { grid-column: 2; }
-.sector-card { background: #FFFFFF; border: 1px solid var(--argile); border-radius: var(--radius-lg); padding: 28px 20px; text-align: center; transition: all 0.3s; cursor: default; }
-.sector-card:hover { border-color: var(--gold); transform: translateY(-4px); box-shadow: 0 12px 32px rgba(200,150,12,0.1); }
-.sector-card .sector-icon { font-size: 40px; margin-bottom: 12px; display: block; transition: transform 0.3s; }
-.sector-card:hover .sector-icon { transform: scale(1.15); }
-.sector-card h3 { font-family: 'Space Grotesk', sans-serif; font-size: 16px; font-weight: 700; margin-bottom: 6px; color: var(--obsidian); }
-.sector-card p { font-size: 13px; color: var(--pierre); line-height: 1.5; }
-.sector-card.more { border-style: dashed; border-color: var(--gold); background: rgba(200,150,12,0.04); }
-.how { text-align: center; background: var(--sable); }
-.steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-top: 48px; position: relative; }
-.steps::before { content: ''; position: absolute; top: 36px; left: 16%; right: 16%; height: 2px; background: linear-gradient(90deg, transparent, var(--argile), var(--argile), transparent); }
-.step { text-align: center; position: relative; }
-.step-num { width: 72px; height: 72px; background: var(--forest); color: #FFFFFF; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 700; margin: 0 auto 20px; position: relative; z-index: 1; box-shadow: 0 6px 20px rgba(10,61,47,0.2); }
-.step h3 { font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 700; margin-bottom: 8px; color: var(--obsidian); }
-.step p { font-size: 14px; color: var(--pierre); line-height: 1.6; max-width: 280px; margin: 0 auto; }
-.pricing { text-align: center; background: var(--parchemin); }
-.pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; align-items: start; }
-.pricing-card { background: #FFFFFF; border: 1px solid var(--argile); border-radius: var(--radius-lg); padding: 36px 28px; text-align: left; transition: all 0.3s; position: relative; }
-.pricing-card.popular { border-color: var(--forest); box-shadow: 0 0 0 1px var(--forest), 0 8px 32px rgba(10,61,47,0.1); transform: scale(1.03); background: var(--forest); color: #FFFFFF; }
-.pricing-badge { position: absolute; top: -12px; right: 24px; background: var(--gold); color: var(--forest-dark); font-size: 12px; font-weight: 700; padding: 4px 14px; border-radius: 12px; }
-.pricing-name { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 6px; }
-.pricing-desc { font-size: 14px; color: var(--pierre); margin-bottom: 20px; }
-.pricing-card.popular .pricing-desc { color: rgba(255,255,255,0.6); }
-.pricing-price { font-family: 'Space Grotesk', sans-serif; font-size: 42px; font-weight: 700; color: var(--forest); margin-bottom: 4px; }
-.pricing-card.popular .pricing-price { color: var(--gold); }
-.pricing-price .period { font-size: 15px; font-weight: 400; color: var(--pierre); }
-.pricing-card.popular .pricing-price .period { color: rgba(255,255,255,0.5); }
-.pricing-features { list-style: none; margin: 28px 0; display: flex; flex-direction: column; gap: 12px; }
-.pricing-features li { font-size: 14px; color: var(--pierre); display: flex; align-items: center; gap: 10px; }
-.pricing-features li::before { content: '\2713'; color: var(--succes); font-weight: 700; width: 20px; text-align: center; flex-shrink: 0; }
-.pricing-card.popular .pricing-features li { color: rgba(255,255,255,0.75); }
-.pricing-card.popular .pricing-features li::before { color: var(--gold); }
-.pricing-cta { width: 100%; padding: 12px; border-radius: var(--radius-sm); font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.25s; border: 1.5px solid var(--argile); background: transparent; color: var(--obsidian); font-family: 'Plus Jakarta Sans', sans-serif; }
-.pricing-card.popular .pricing-cta { background: var(--gold); border-color: var(--gold); color: var(--forest-dark); font-weight: 700; }
-.pricing-cta:hover { border-color: var(--forest); transform: translateY(-1px); }
-.pricing-card.popular .pricing-cta:hover { background: var(--gold-light); }
-.cta-section { text-align: center; padding: 100px 0; background: var(--forest); position: relative; overflow: hidden; }
-.cta-section::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 0%, rgba(200,150,12,0.08), transparent 60%); pointer-events: none; }
-.cta-section .section-title { max-width: 600px; margin: 0 auto 16px; color: #FFFFFF; }
-.cta-section .section-subtitle { margin: 0 auto 36px; color: rgba(255,255,255,0.6); }
-.cta-buttons { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; position: relative; }
-.contact { background: var(--sable); }
-.contact .container { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
-.contact-form { display: flex; flex-direction: column; gap: 18px; }
-.form-group { display: flex; flex-direction: column; gap: 5px; }
-.form-group label { font-size: 13px; font-weight: 600; color: var(--pierre); }
-.form-group input, .form-group select, .form-group textarea { background: #FFFFFF; border: 1.5px solid var(--argile); border-radius: var(--radius-sm); padding: 11px 14px; color: var(--obsidian); font-size: 15px; font-family: inherit; transition: border-color 0.2s; outline: none; }
-.form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: var(--forest); box-shadow: 0 0 0 3px rgba(10,61,47,0.08); }
-.form-group textarea { resize: vertical; min-height: 100px; }
-.form-group select { cursor: pointer; }
-.form-submit { padding: 12px 28px; border-radius: var(--radius-sm); background: var(--forest); color: #FFFFFF; font-size: 15px; font-weight: 600; border: none; cursor: pointer; transition: all 0.25s; font-family: 'Plus Jakarta Sans', sans-serif; }
-.form-submit:hover { background: var(--forest-light); }
-.form-success { display: none; padding: 14px; background: rgba(5,150,105,0.08); border: 1px solid var(--succes); border-radius: var(--radius-sm); color: #065F46; font-size: 14px; text-align: center; }
-.form-success.show { display: block; }
-.contact-info { padding-top: 16px; }
-.contact-info h3 { font-family: 'Space Grotesk', sans-serif; font-size: 15px; font-weight: 700; margin-bottom: 20px; color: var(--pierre); text-transform: uppercase; letter-spacing: 1px; }
-.contact-channels { display: flex; flex-direction: column; gap: 12px; }
-.contact-channel { display: flex; align-items: center; gap: 14px; padding: 14px 18px; background: #FFFFFF; border: 1px solid var(--argile); border-radius: var(--radius-sm); transition: all 0.2s; }
-.contact-channel:hover { border-color: var(--forest); }
-.contact-channel .ch-icon { font-size: 22px; }
-.contact-channel .ch-label { font-size: 12px; color: var(--pierre); }
-.contact-channel .ch-value { font-size: 14px; font-weight: 600; color: var(--obsidian); }
-.footer { border-top: 1px solid var(--argile); padding: 48px 0 28px; background: var(--forest); color: rgba(255,255,255,0.7); }
-.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 40px; margin-bottom: 40px; }
-.footer-brand { max-width: 280px; }
-.footer-logo { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; }
-.footer-logo svg { height: 22px; width: auto; }
-.footer-logo span { font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 700; color: #FFFFFF; letter-spacing: -0.01em; }
-.footer-desc { font-size: 13px; color: rgba(255,255,255,0.5); line-height: 1.6; }
-.footer-socials { display: flex; gap: 14px; margin-top: 14px; }
-.footer-socials a { color: rgba(255,255,255,0.4); transition: color 0.2s; display: flex; align-items: center; }
-.footer-socials a:hover { color: var(--gold); }
-.footer-col h4 { font-size: 12px; font-weight: 700; color: rgba(255,255,255,0.4); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 16px; }
-.footer-col a { display: block; font-size: 14px; color: rgba(255,255,255,0.6); padding: 3px 0; transition: color 0.2s; }
-.footer-col a:hover { color: var(--gold); }
-.footer-bottom { display: flex; justify-content: center; align-items: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; font-size: 12px; color: rgba(255,255,255,0.35); }
-/* Hero phone slide-in animations */
-@keyframes phone-left { 0% { opacity:0; transform:rotateY(6deg) rotateX(2deg) translateX(-60px) translateY(40px) scale(0.92); } 100% { opacity:1; transform:rotateY(6deg) rotateX(2deg) translateX(0) translateY(0) scale(1); } }
-@keyframes phone-right { 0% { opacity:0; transform:rotateY(-6deg) rotateX(2deg) translateX(60px) translateY(40px) scale(0.92); } 100% { opacity:1; transform:rotateY(-6deg) rotateX(2deg) translateX(0) translateY(0) scale(1); } }
-@keyframes hero-text-in { 0% { opacity:0; transform:translateY(24px); } 100% { opacity:1; transform:translateY(0); } }
-@keyframes float-gentle { 0%,100% { transform:rotateY(6deg) rotateX(2deg) translateY(0); } 50% { transform:rotateY(6deg) rotateX(2deg) translateY(-8px); } }
-@keyframes float-gentle-r { 0%,100% { transform:rotateY(-6deg) rotateX(2deg) translateY(0); } 50% { transform:rotateY(-6deg) rotateX(2deg) translateY(-8px); } }
-.hero-phone-l { opacity:0; animation:phone-left 0.9s cubic-bezier(0.16,1,0.3,1) 0.3s forwards; }
-.hero-phone-r { opacity:0; animation:phone-right 0.9s cubic-bezier(0.16,1,0.3,1) 0.55s forwards; }
-.hero-phone-l.loaded { animation:phone-left 0.9s cubic-bezier(0.16,1,0.3,1) 0.3s forwards, float-gentle 4s ease-in-out 1.5s infinite; }
-.hero-phone-r.loaded { animation:phone-right 0.9s cubic-bezier(0.16,1,0.3,1) 0.55s forwards, float-gentle-r 4s ease-in-out 2s infinite; }
-.hero-badge-anim { opacity:0; animation:hero-text-in 0.6s cubic-bezier(0.16,1,0.3,1) 0.1s forwards; }
-.hero-title-anim { opacity:0; animation:hero-text-in 0.7s cubic-bezier(0.16,1,0.3,1) 0.2s forwards; }
-.hero-sub-anim { opacity:0; animation:hero-text-in 0.7s cubic-bezier(0.16,1,0.3,1) 0.35s forwards; }
-.hero-ctas-anim { opacity:0; animation:hero-text-in 0.7s cubic-bezier(0.16,1,0.3,1) 0.5s forwards; }
-.hero-trust-anim { opacity:0; animation:hero-text-in 0.6s cubic-bezier(0.16,1,0.3,1) 0.65s forwards; }
-@media (prefers-reduced-motion: reduce) { .hero-phone-l,.hero-phone-r,.hero-badge-anim,.hero-title-anim,.hero-sub-anim,.hero-ctas-anim,.hero-trust-anim { opacity:1 !important; animation:none !important; } }
-.js-ready .fade-up { opacity: 0; transform: translateY(30px); transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1); }
-.js-ready .fade-up.visible { opacity: 1; transform: translateY(0); }
-@media (prefers-reduced-motion: reduce) { .js-ready .fade-up { opacity: 1; transform: none; transition: none; } }
-.fade-up:nth-child(2) { transition-delay: 0.06s; }
-.fade-up:nth-child(3) { transition-delay: 0.12s; }
-.fade-up:nth-child(4) { transition-delay: 0.18s; }
-.fade-up:nth-child(5) { transition-delay: 0.24s; }
-.fade-up:nth-child(6) { transition-delay: 0.30s; }
-.legal-overlay { display:none; position:fixed; inset:0; z-index:9999; background:rgba(250,250,245,0.98); overflow-y:auto; padding:40px 24px; }
-.legal-overlay .legal-inner { max-width:800px; margin:0 auto; }
-.legal-overlay .legal-back { background:none; border:none; color:var(--forest); font-size:15px; cursor:pointer; margin-bottom:24px; font-weight:600; font-family:'Plus Jakarta Sans',sans-serif; }
-.legal-overlay .legal-back:hover { text-decoration: underline; }
-.legal-overlay h1 { font-family:'Space Grotesk',sans-serif; font-size:2rem; font-weight:700; margin-bottom:8px; }
-.legal-overlay .legal-date { color:var(--pierre); font-size:14px; margin-bottom:36px; }
-.legal-overlay h2 { font-family:'Space Grotesk',sans-serif; font-size:1.2rem; font-weight:700; color:var(--forest); margin:32px 0 12px; }
-.legal-overlay p, .legal-overlay li { color:var(--pierre); line-height:1.8; font-size:15px; margin-bottom:10px; }
-.legal-overlay ul { padding-left:24px; margin-bottom:14px; }
-.legal-overlay strong { color:var(--obsidian); }
-@media (max-width: 968px) {
-  .hero .container { grid-template-columns: 1fr; gap: 40px; text-align: center; }
-  .hero-content { max-width: 100%; }
-  .hero-ctas { justify-content: center; }
-  .hero-trust { justify-content: center; }
-  .hero-visual { order: -1; }
-  .problem-grid, .features-grid, .pricing-grid, .steps, .sectors-grid { grid-template-columns: 1fr; max-width: 440px; margin-left: auto; margin-right: auto; }
-  .pricing-card.popular { transform: none; }
-  .steps::before { display: none; }
-  .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 20px; }
-  .contact .container { grid-template-columns: 1fr; gap: 40px; }
-  .footer-grid { grid-template-columns: 1fr 1fr; gap: 28px; }
-}
-@media (max-width: 768px) {
-  .nav-links { display: none; }
-  .nav-burger { display: flex; }
-  .nav-links.open { display: flex; flex-direction: column; position: absolute; top: 64px; left: 0; right: 0; background: rgba(10,61,47,0.98); padding: 20px; gap: 18px; border-bottom: 1px solid rgba(255,255,255,0.1); }
-  .section { padding: 72px 0; }
-  .footer-grid { grid-template-columns: 1fr; }
-  .footer-bottom { flex-direction: column; gap: 10px; text-align: center; }
-  .pricing-single { padding: 36px 24px; }
-  .pricing-zero { font-size: 48px; }
-  .hero-visual img { width: 150px !important; }
-  .hero-visual { gap: 12px !important; }
-  .footer > .container > div:first-child { grid-template-columns: 1fr !important; gap: 28px !important; }
-}
-/* Exemples de conversations avec l'assistant (section "Chaque personne a son interface") */
-.chat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; text-align: left; align-items: start; }
-.chat-card { background: #0B141A; border-radius: 20px; overflow: hidden; box-shadow: 0 12px 40px rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.08); }
-.chat-head { background: #1F2C34; padding: 14px 16px 12px; position: relative; }
-.chat-title { color: #fff; font-weight: 700; font-size: 15px; margin: 0; padding-right: 70px; }
-.chat-desc { color: rgba(255,255,255,0.65); font-size: 13px; margin: 4px 0 0; line-height: 1.4; }
-.chat-tag { position: absolute; top: 12px; right: 12px; font-size: 11px; font-weight: 700; color: #0B141A; background: #E9C46A; border-radius: 999px; padding: 2px 8px; }
-.chat-body { padding: 14px 12px 16px; display: flex; flex-direction: column; gap: 6px; }
-.chat-bubble { max-width: 88%; padding: 8px 10px; border-radius: 10px; font-size: 13.5px; line-height: 1.45; color: #E9EDEF; word-wrap: break-word; }
-.chat-bot { background: #1F2C34; align-self: flex-start; border-top-left-radius: 2px; }
-.chat-me { background: #005C4B; align-self: flex-end; border-top-right-radius: 2px; }
-.chat-btns { display: flex; flex-direction: column; gap: 4px; max-width: 88%; align-self: flex-start; width: 88%; }
-.chat-btn { background: #1F2C34; color: #53BDEB; text-align: center; font-size: 13.5px; font-weight: 600; padding: 8px 10px; border-radius: 10px; }
-.form-notice { font-size: 12.5px; line-height: 1.5; color: var(--text-muted); margin: 10px 0 0; }
-.form-notice a { color: var(--teal-400); }
-.svc-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 14px; text-align: left; }
-.svc-card { display: flex; flex-direction: column; gap: 4px; background: #fff; border: 1px solid rgba(0,0,0,0.08); border-radius: 16px; padding: 16px; text-decoration: none; min-height: 104px; }
-.svc-card:hover { border-color: var(--gold, #C8960C); }
-.svc-group { font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: #8A6A0A; }
-.svc-name { font-size: 16px; font-weight: 700; color: #10231C; }
-.svc-desc { font-size: 13.5px; line-height: 1.45; color: #4B5563; }
-</style>
+  <link rel="preconnect" href="https://api.aaanyim.net" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/site.css?v=5">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -273,7 +33,7 @@ img { max-width: 100%; display: block; }
   "legalName": "AAANYIM TOGO SARLU",
   "url": "https://www.aaanyim.net",
   "logo": "https://www.aaanyim.net/img/og-image.png",
-  "description": "Commandez par WhatsApp chez les commerces pr\u00e8s de chez vous. Pour les commer\u00e7ants : vitrine gratuite et gestion compl\u00e8te.",
+  "description": "Les commerces pr\u00e8s de chez vous dans une seule application : trouver, commander, r\u00e9server, suivre. Aussi sur WhatsApp. Togo et Cameroun.",
   "email": "contact@aaanyim.net",
   "contactPoint": [
     { "@type": "ContactPoint", "telephone": "+237689158764", "contactType": "customer service", "areaServed": "CM", "availableLanguage": ["fr", "en"] },
@@ -308,301 +68,321 @@ img { max-width: 100%; display: block; }
 </head>
 <body>
 
-<nav class="navbar">
-  <div class="nav-inner">
-    <a href="#" class="nav-logo">
-      <svg viewBox="0 0 200 92" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 56 L30 56 L38 10 L46 82 L54 56 L78 56 L86 10 L94 82 L102 56 L126 56 L134 10 L142 82 L150 56 L196 56" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a href="#top" class="logo" aria-label="AAANYIM">
+      <svg viewBox="0 0 200 92" fill="none" aria-hidden="true"><path d="M4 56 L30 56 L38 10 L46 82 L54 56 L78 56 L86 10 L94 82 L102 56 L126 56 L134 10 L142 82 L150 56 L196 56" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></svg>
       <span>AAANYIM</span>
     </a>
-    <div class="nav-links">
-      <a href="#features" data-i18n="nav.features">Fonctionnalit&eacute;s</a>
-      <a href="#sectors" data-i18n="nav.sectors">Secteurs</a>
-      <a href="#how" data-i18n="nav.how">Comment &ccedil;a marche</a>
-      <a href="#pricing" data-i18n="nav.pricing">Tarifs</a>
-      <a href="#contact" data-i18n="nav.contact">Contact</a>
-      <div class="nav-lang">
-        <button data-lang="en">EN</button>
-        <button data-lang="fr" class="active">FR</button>
+    <nav class="menu" id="menu" aria-label="Menu">
+      <a class="nav-link" href="#clients" data-t="nav.clients">Clients</a>
+      <a class="nav-link" href="#commercants" data-t="nav.merchants">Commerçants</a>
+      <a class="nav-link" href="#activites" data-t="nav.activities">Activités</a>
+      <a class="nav-link" href="#tarifs" data-t="nav.pricing">Tarifs</a>
+      <div class="lang-switch" role="group" aria-label="Langue / Language">
+        <button type="button" data-lang="fr" aria-pressed="true">FR</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
       </div>
-      <a href="https://wa.me/237689158764" target="_blank" class="nav-cta" data-wa="CM" data-i18n="nav.cta">Commander</a>
-    </div>
-    <button class="nav-burger" aria-label="Menu"><span></span><span></span><span></span></button>
+      <a class="btn btn-gold" data-install href="#installer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+        <span data-t="nav.install">Installer l'app</span>
+      </a>
+    </nav>
+    <button type="button" class="burger" aria-controls="menu" aria-expanded="false" data-t-aria="nav.menu" aria-label="Menu">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
   </div>
-</nav>
+</header>
 
-<section class="hero">
-  <div class="container">
-    <div class="hero-content">
-      <span class="hero-badge hero-badge-anim" data-i18n="hero.badge">Marketplace WhatsApp</span>
-      <h1 class="hero-title hero-title-anim">
-        <span data-i18n="hero.title_1">Commandez par WhatsApp</span><br>
-        <span class="accent" data-i18n="hero.title_2">chez les commerces pr&egrave;s de chez vous.</span>
-      </h1>
-      <p class="hero-subtitle hero-sub-anim" data-i18n="hero.subtitle">Rien &agrave; installer pour vos clients : tout se passe sur WhatsApp. Envoyez un message, recevez le catalogue en photos, commandez et payez &agrave; la livraison. Pour les commer&ccedil;ants : une application l&eacute;g&egrave;re et une gestion compl&egrave;te.</p>
-      <div class="hero-ctas hero-ctas-anim">
-        <a href="https://wa.me/237689158764" target="_blank" class="btn-primary" data-wa="CM" data-i18n="hero.cta_cm">🇨🇲 Commander au Cameroun</a>
-        <a href="https://wa.me/22890897972" target="_blank" class="btn-primary" data-wa="TG" data-i18n="hero.cta_tg">🇹🇬 Commander au Togo</a>
-        <a href="#commercants" class="btn-secondary" data-i18n="hero.cta_secondary">Je suis commer&ccedil;ant</a>
+<main id="top">
+  <!-- Haut de page : installer d'abord, WhatsApp a cote -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="pill"><span class="dot" aria-hidden="true"></span><span data-t="hero.badge">Togo · Cameroun</span></span>
+        <h1><span data-t="hero.title1">Les commerces près de chez vous,</span> <span class="accent" data-t="hero.title2">dans une seule appli.</span></h1>
+        <p class="hero-sub" data-t="hero.sub">Trouvez, commandez, réservez et suivez votre commande. Payez à la livraison ou par Mobile Money. Et si vous préférez, tout marche aussi sur WhatsApp.</p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" data-install href="#installer">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+            <span data-t="hero.install">Installer l'application</span>
+          </a>
+          <div class="hero-wa" id="hero-wa"></div>
+        </div>
+        <p class="hero-note" data-t="hero.installNote">Gratuit · sans Play Store ni App Store</p>
+        <div><a class="hero-merchant" href="#commercants" data-t="hero.merchant">Vous êtes commerçant ? Créer mon commerce</a></div>
+        <p class="live" id="live-line" hidden><span class="dot" aria-hidden="true"></span><span class="live-text"></span></p>
       </div>
-      <div class="hero-trust hero-trust-anim">
-        <span class="dot"></span>
-        <span data-i18n="hero.trust">Actif au Togo et au Cameroun</span>
-      </div>
-    </div>
-    <div class="hero-visual" style="perspective:900px;display:flex;justify-content:center;align-items:center;gap:20px">
-      <div class="hero-phone-l" style="flex-shrink:0">
-        <img src="/img/capture-bot-whatsapp.webp" alt="Commander sur WhatsApp depuis un telephone : le bot AAANYIM affiche le catalogue avec photos et prix" loading="eager" style="width:220px;border-radius:24px;box-shadow:0 20px 60px rgba(0,0,0,0.5),0 0 0 1px rgba(255,255,255,0.08);display:block">
-      </div>
-      <div class="hero-phone-r" style="flex-shrink:0;margin-top:40px">
-        <img src="/img/capture-marketplace.webp" alt="Marketplace AAANYIM sur mobile : trouvez les commerces pres de vous a Douala et Lome" loading="eager" style="width:220px;border-radius:24px;box-shadow:0 20px 60px rgba(0,0,0,0.5),0 0 0 1px rgba(255,255,255,0.08);display:block">
-      </div>
-    </div>
-  </div>
-</section>
 
-<section class="stats">
-  <div class="container">
-    <div class="stats-grid" style="grid-template-columns:repeat(3,1fr)">
-      <div><div class="stat-number" data-i18n="stats.s1_num">2</div><div class="stat-label" data-i18n="stats.s1_label">Pays (Togo, Cameroun)</div></div>
-      <div><div class="stat-number" data-i18n="stats.s2_num" style="font-size:24px">Appli l&eacute;g&egrave;re</div><div class="stat-label" data-i18n="stats.s2_label">Pour les commer&ccedil;ants, sur tout t&eacute;l&eacute;phone</div></div>
-      <div><div class="stat-number" data-i18n="stats.s3_num">0</div><div class="stat-label" data-i18n="stats.s3_label">FCFA pour commencer</div></div>
-    </div>
-  </div>
-</section>
-
-<section class="section" id="whatsapp" style="background:var(--parchemin)"><div class="container" style="text-align:center">
-  <span class="section-badge fade-up">Commander par WhatsApp</span>
-  <h2 class="section-title fade-up">Commandez en 3 messages</h2>
-  <p class="section-subtitle fade-up" style="margin:0 auto 48px" data-i18n="whatsapp.subtitle">Rien &agrave; installer : envoyez un message et commandez en quelques secondes.</p>
-  <div class="steps" style="margin-top:0">
-    <div class="step fade-up"><div class="step-num">1</div><h3 data-i18n="whatsapp.step1_title">&Eacute;crivez le nom du commerce</h3><p data-i18n="whatsapp.step1_desc">Envoyez le nom de la boutique ou scannez son QR code sur WhatsApp : 🇨🇲 +237 689 158 764 ou 🇹🇬 +228 90 89 79 72</p></div>
-    <div class="step fade-up"><div class="step-num">2</div><h3 data-i18n="whatsapp.step2_title">Recevez le catalogue en photos</h3><p data-i18n="whatsapp.step2_desc">Les produits disponibles avec leurs prix, directement dans WhatsApp</p></div>
-    <div class="step fade-up"><div class="step-num">3</div><h3 data-i18n="whatsapp.step3_title">Commandez et payez &agrave; la livraison</h3><p data-i18n="whatsapp.step3_desc">Confirmez votre commande et payez en esp&egrave;ces ou par Mobile Money</p></div>
-  </div>
-  <div style="margin-top:36px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
-    <a href="https://wa.me/237689158764" target="_blank" class="btn-primary" data-wa="CM" style="background:#25D366;color:#fff" data-i18n="whatsapp.try_cm">🇨🇲 Essayer au Cameroun</a>
-    <a href="https://wa.me/22890897972" target="_blank" class="btn-primary" data-wa="TG" style="background:#25D366;color:#fff" data-i18n="whatsapp.try_tg">🇹🇬 Essayer au Togo</a>
-  </div>
-</div></section>
-
-<section class="section" id="roles" style="background:var(--forest);padding:80px 0"><div class="container" style="text-align:center">
-  <span class="section-badge fade-up" style="background:rgba(200,150,12,0.15);color:var(--gold-light);border-color:rgba(200,150,12,0.25)" data-i18n="roles.badge">Un seul WhatsApp, pour chaque r&ocirc;le</span>
-  <h2 class="section-title fade-up" style="color:#fff" data-i18n="roles.title">Chaque personne a son interface</h2>
-  <p class="section-subtitle fade-up" style="color:rgba(255,255,255,0.6);margin:0 auto 48px" data-i18n="roles.subtitle">Exemples de conversations. Les messages de l&rsquo;assistant sont ceux qu&rsquo;il envoie vraiment ; les commerces et les noms sont invent&eacute;s.</p>
-  <div id="roles-grid" class="chat-grid"></div>
-</div></section>
-
-<section class="section" id="services" style="background:var(--parchemin)"><div class="container" style="text-align:center">
-  <span class="section-badge fade-up" data-i18n="services.badge">Pour tout le monde</span>
-  <h2 class="section-title fade-up" data-i18n="services.title">Des services ouverts &agrave; tous, sans compte</h2>
-  <p class="section-subtitle fade-up" style="margin:0 auto 40px" data-i18n="services.subtitle">Trouver, demander, r&eacute;server, faire livrer : chaque page dit qui r&eacute;pond pr&egrave;s de vous. Un service n&rsquo;appara&icirc;t que l&agrave; o&ugrave; il est ouvert.</p>
-  <div id="services-grid" class="svc-grid"></div>
-</div></section>
-
-<section class="section" id="commercants" style="background:var(--sable)"><div class="container" style="text-align:center">
-  <span class="section-badge fade-up">Pour les commer&ccedil;ants</span>
-  <h2 class="section-title fade-up">G&eacute;rez votre boutique depuis WhatsApp</h2>
-  <p class="section-subtitle fade-up" style="margin:0 auto 48px">Vos clients commandent, vous recevez, vous livrez. Gratuit tant que vous ne vendez pas.</p>
-  <div class="features-grid" style="margin-top:0">
-    <div class="feature-card fade-up"><div class="icon">💬</div><h3>Commandes par WhatsApp</h3><p>Vos clients &eacute;crivent au bot, choisissent leurs produits en photos et commandent. Vous recevez la commande instantan&eacute;ment.</p></div>
-    <div class="feature-card fade-up"><div class="icon">📦</div><h3>Suivi du stock en temps r&eacute;el</h3><p>Tapez &laquo;&nbsp;mon stock&nbsp;&raquo; pour voir ce qui reste. Le bot vous alerte quand un produit est bient&ocirc;t en rupture.</p></div>
-    <div class="feature-card fade-up"><div class="icon">🩺</div><h3>Sant&eacute; du catalogue</h3><p>Tapez &laquo;&nbsp;sant&eacute;&nbsp;&raquo; pour savoir quels produits manquent de photo, de prix ou de stock. Votre vitrine reste compl&egrave;te.</p></div>
-    <div class="feature-card fade-up"><div class="icon">🌐</div><h3>Vitrine en ligne gratuite</h3><p>Chaque commerce a sa page web avec ses produits, ses prix et un bouton Commander. Partagez le lien sur vos r&eacute;seaux.</p></div>
-    <div class="feature-card fade-up"><div class="icon">🚚</div><h3>Livraisons trac&eacute;es</h3><p>Suivez chaque livreur en temps r&eacute;el. Vos clients voient o&ugrave; en est leur commande.</p></div>
-    <div class="feature-card fade-up"><div class="icon">💰</div><h3>Z&eacute;ro commission au comptoir</h3><p>Ventes en esp&egrave;ces, ardoises, caisse : aucune commission. AAANYIM ne prend que 3&nbsp;% sur les paiements en ligne.</p></div>
-  </div>
-  <div style="margin-top:36px"><a href="https://app.aaanyim.net/register" target="_blank" class="btn-primary">Cr&eacute;er ma boutique gratuitement</a></div>
-</div></section>
-
-<section class="section problem" id="problem"><div class="container">
-  <span class="section-badge fade-up" data-i18n="problem.badge">Le constat</span>
-  <h2 class="section-title fade-up" data-i18n="problem.title">En Afrique, les PME perdent une part importante de leur chiffre d&rsquo;affaires</h2>
-  <div class="problem-grid" id="problem-cards"></div>
-</div></section>
-
-<section class="section features" id="features"><div class="container">
-  <span class="section-badge fade-up" data-i18n="solution.badge">Ce que vous gagnez</span>
-  <h2 class="section-title fade-up" data-i18n="solution.title">Tout ce dont un entrepreneur a besoin, dans sa poche</h2>
-  <div class="features-grid" id="feature-cards"></div>
-</div></section>
-
-<section class="section sectors" id="sectors"><div class="container">
-  <span class="section-badge fade-up" data-i18n="sectors.badge">Multi-secteurs</span>
-  <h2 class="section-title fade-up" data-i18n="sectors.title">Quel que soit votre business, AAANYIM s&rsquo;adapte</h2>
-  <p class="section-subtitle fade-up" data-i18n="sectors.subtitle" style="margin:0 auto 20px">AAANYIM s&rsquo;adapte &agrave; la fa&ccedil;on de travailler de chaque activit&eacute; : ses mots, ses &eacute;crans, ses gestes.</p>
-  <div class="sectors-grid" id="sectors-cards"></div>
-</div></section>
-
-<section class="section how" id="how"><div class="container">
-  <span class="section-badge fade-up" data-i18n="how.badge">Simple comme bonjour</span>
-  <h2 class="section-title fade-up" data-i18n="how.title">Op&eacute;rationnel en 3 &eacute;tapes</h2>
-  <div class="steps" id="steps-container"></div>
-</div></section>
-
-<section class="section pricing" id="pricing"><div class="container">
-  <span class="section-badge fade-up" data-i18n="pricing.badge">Tarifs transparents</span>
-  <h2 class="section-title fade-up" data-i18n="pricing.title">Un tarif qui s&rsquo;adapte &agrave; votre business</h2>
-  <p class="section-subtitle fade-up" style="margin:0 auto 48px;text-align:center" data-i18n="pricing.subtitle">Commencez gratuitement. Payez uniquement quand vous vendez. Ou choisissez un forfait fixe.</p>
-  <div class="pricing-grid" id="pricing-cards"></div>
-</div></section>
-
-<section class="cta-section">
-  <div class="container">
-    <h2 class="section-title fade-up" data-i18n="cta_section.title">Pr&ecirc;t &agrave; essayer ?</h2>
-    <p class="section-subtitle fade-up" data-i18n="cta_section.subtitle">Envoyez un message WhatsApp et commandez en quelques secondes. Commer&ccedil;ant ? Cr&eacute;ez votre vitrine gratuitement.</p>
-    <div class="cta-buttons fade-up">
-      <a href="https://wa.me/237689158764" target="_blank" class="btn-primary" data-wa="CM" data-i18n="cta_section.cta_cm">🇨🇲 Commander au Cameroun</a>
-      <a href="https://wa.me/22890897972" target="_blank" class="btn-primary" data-wa="TG" data-i18n="cta_section.cta_tg">🇹🇬 Commander au Togo</a>
-    </div>
-  </div>
-</section>
-
-<section class="section contact" id="contact"><div class="container">
-  <div>
-    <span class="section-badge fade-up" data-i18n="contact.badge">Contactez-nous</span>
-    <h2 class="section-title fade-up" data-i18n="contact.title">On vous rappelle en moins de 24h</h2>
-    <p class="section-subtitle fade-up" data-i18n="contact.subtitle">Dites-nous ce que vous faites, on vous montre comment AAANYIM peut vous aider.</p>
-    <form id="contact-form" class="contact-form fade-up">
-      <div class="form-group"><label data-i18n="contact.form.name">Nom complet</label><input type="text" name="name" required data-i18n="contact.form.name"></div>
-      <div class="form-group"><label data-i18n="contact.form.email">Email</label><input type="email" name="email" required data-i18n="contact.form.email"></div>
-      <div class="form-group"><label data-i18n="contact.form.phone">T&eacute;l&eacute;phone (WhatsApp)</label><input type="tel" name="phone" data-i18n="contact.form.phone"></div>
-      <div class="form-group"><label data-i18n="contact.form.company">Nom de votre entreprise</label><input type="text" name="company" data-i18n="contact.form.company"></div>
-      <div class="form-group"><label data-i18n="contact.form.sector">Votre secteur d&rsquo;activit&eacute;</label><select name="sector" id="sector-select"></select></div>
-      <div class="form-group"><label data-i18n="contact.form.message">D&eacute;crivez votre besoin</label><textarea name="message" required data-i18n="contact.form.message"></textarea></div>
-      <button type="submit" class="form-submit" data-i18n="contact.form.submit">Envoyer</button>
-      <p class="form-notice"><span data-i18n="contact.form.notice">Ces informations servent seulement &agrave; vous rappeler. Elles nous parviennent par Formspree (&Eacute;tats-Unis). D&eacute;tails : Confidentialit&eacute;.</span> <a href="/confidentialite.html">&rarr;</a></p>
-      <div id="form-success" class="form-success" data-i18n="contact.form.success">Merci ! On vous contacte dans les 24h.</div>
-    </form>
-  </div>
-  <div class="contact-info fade-up">
-    <h3 data-i18n="contact.form.whatsapp">Contactez-nous directement</h3>
-    <div class="contact-channels">
-      <a href="https://wa.me/237689158764" target="_blank" class="contact-channel" data-wa="CM"><span class="ch-icon">🇨🇲</span><div><div class="ch-label">WhatsApp Cameroun</div><div class="ch-value">+237 689 158 764</div></div></a>
-      <a href="https://wa.me/22890897972" target="_blank" class="contact-channel" data-wa="TG"><span class="ch-icon">🇹🇬</span><div><div class="ch-label">WhatsApp Togo</div><div class="ch-value">+228 90 89 79 72</div></div></a>
-      <a href="mailto:contact@aaanyim.net" class="contact-channel"><span class="ch-icon">📧</span><div><div class="ch-label">Email</div><div class="ch-value">contact@aaanyim.net</div></div></a>
-      <a href="https://www.aaanyim.net" class="contact-channel"><span class="ch-icon">🌐</span><div><div class="ch-label">Site web</div><div class="ch-value">aaanyim.net</div></div></a>
-    </div>
-  </div>
-</div></section>
-
-<footer class="footer"><div class="container">
-  <div style="display:grid;grid-template-columns:2fr 1fr 1fr;gap:40px;margin-bottom:32px">
-    <div>
-      <div class="footer-logo" style="margin-bottom:14px">
-        <svg viewBox="0 0 200 92" fill="none" xmlns="http://www.w3.org/2000/svg" style="height:22px;width:auto"><path d="M4 56 L30 56 L38 10 L46 82 L54 56 L78 56 L86 10 L94 82 L102 56 L126 56 L134 10 L142 82 L150 56 L196 56" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        <span style="font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:700;color:#fff;letter-spacing:-0.01em">AAANYIM</span>
-      </div>
-      <p style="font-size:13px;color:rgba(255,255,255,0.5);line-height:1.6;max-width:280px">Construit au Togo et au Cameroun pour les commer&ccedil;ants qui veulent vendre plus simplement.</p>
-      <p style="font-size:12px;color:rgba(255,255,255,0.3);margin-top:10px">Actif au Togo et au Cameroun</p>
-      <div style="display:flex;gap:14px;margin-top:14px">
-        <a href="https://web.facebook.com/profile.php?id=61588858364658" target="_blank" rel="noopener" aria-label="Facebook" style="color:rgba(255,255,255,0.4);transition:color 0.2s;display:flex"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
-        <a href="https://www.instagram.com/aaanyim" target="_blank" rel="noopener" aria-label="Instagram" style="color:rgba(255,255,255,0.4);transition:color 0.2s;display:flex"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
-        <a href="https://wa.me/237689158764" target="_blank" rel="noopener" aria-label="WhatsApp" data-wa="CM" style="color:rgba(255,255,255,0.4);transition:color 0.2s;display:flex"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+      <div class="phone-stage" aria-hidden="true">
+        <div class="phone">
+          <div class="phone-screen">
+            <span class="phone-notch"></span>
+            <div id="phone-app">
+              <div class="papp-head">
+                <div class="papp-brand">
+                  <svg viewBox="0 0 200 92" fill="none"><path d="M4 56 L30 56 L38 10 L46 82 L54 56 L78 56 L86 10 L94 82 L102 56 L126 56 L134 10 L142 82 L150 56 L196 56" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                  AAANYIM
+                </div>
+                <div class="papp-search">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+                  <span data-t="phone.search">Que cherchez-vous ?</span>
+                </div>
+              </div>
+              <div class="papp-body">
+                <span class="papp-title" id="phone-title">Que voulez-vous aujourd'hui ?</span>
+                <div id="phone-shops" class="papp-rayons"></div>
+              </div>
+            </div>
+          </div>
+          <div class="phone-badge">
+            <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></span>
+            <span data-t="phone.installed">Sur votre écran d'accueil</span>
+          </div>
+        </div>
       </div>
     </div>
-    <div>
-      <h4 style="font-size:12px;font-weight:700;color:rgba(255,255,255,0.4);text-transform:uppercase;letter-spacing:1px;margin-bottom:16px">Commander</h4>
-      <a href="https://wa.me/237689158764" target="_blank" data-wa="CM" style="display:block;font-size:14px;color:rgba(255,255,255,0.6);padding:3px 0">🇨🇲 WhatsApp Cameroun</a>
-      <a href="https://wa.me/22890897972" target="_blank" data-wa="TG" style="display:block;font-size:14px;color:rgba(255,255,255,0.6);padding:3px 0">🇹🇬 WhatsApp Togo</a>
-      <a href="https://app.aaanyim.net" target="_blank" style="display:block;font-size:14px;color:rgba(255,255,255,0.6);padding:3px 0">Marketplace</a>
-      <a href="#pricing" style="display:block;font-size:14px;color:rgba(255,255,255,0.6);padding:3px 0">Tarifs</a>
-      <a href="#contact" style="display:block;font-size:14px;color:rgba(255,255,255,0.6);padding:3px 0">Contact</a>
+  </section>
+
+  <!-- Installer -->
+  <section class="section dark" id="installer">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow" data-t="install.badge">Installer</span>
+        <h2 data-t="install.title">Installez AAANYIM en 3 gestes</h2>
+        <p data-t="install.sub">Une vraie application sur votre écran d'accueil, sans passer par un magasin d'applications. Elle se met à jour toute seule.</p>
+      </div>
+      <div class="install-grid">
+        <ul class="benefits" id="install-benefits"></ul>
+        <div class="how">
+          <div class="tabs" role="tablist">
+            <button type="button" role="tab" data-tab="android" aria-selected="true" aria-controls="panel-android" data-t="install.tabs.android">Android</button>
+            <button type="button" role="tab" data-tab="iphone" aria-selected="false" aria-controls="panel-iphone" data-t="install.tabs.iphone">iPhone</button>
+            <button type="button" role="tab" data-tab="desktop" aria-selected="false" aria-controls="panel-desktop" data-t="install.tabs.desktop">Ordinateur</button>
+          </div>
+          <div class="panel" id="panel-android" role="tabpanel" data-panel="android">
+            <ol class="steps" id="steps-android"></ol>
+            <p class="panel-help" data-t="install.androidHelp"></p>
+            <a class="btn btn-dark" data-install="go" href="https://app.aaanyim.net/marketplace?installer=1" data-t="install.go">Ouvrir AAANYIM pour l'installer</a>
+          </div>
+          <div class="panel" id="panel-iphone" role="tabpanel" data-panel="iphone" hidden>
+            <ol class="steps" id="steps-iphone"></ol>
+            <p class="panel-help" data-t="install.iphoneHelp"></p>
+            <a class="btn btn-dark" data-install="go" href="https://app.aaanyim.net/marketplace?installer=1" data-t="install.go">Ouvrir AAANYIM pour l'installer</a>
+          </div>
+          <div class="panel" id="panel-desktop" role="tabpanel" data-panel="desktop" hidden>
+            <div class="qr">
+              <img src="/img/qr-installer.svg" alt="QR code : app.aaanyim.net" width="168" height="168">
+              <div>
+                <strong data-t="install.desktopTitle">Scannez avec votre téléphone</strong>
+                <p data-t="install.desktopText">Ouvrez l'appareil photo, visez ce code : AAANYIM s'ouvre, prêt à installer.</p>
+                <small data-t="install.desktopOr">ou ouvrez app.aaanyim.net sur votre téléphone</small>
+              </div>
+            </div>
+          </div>
+          <p class="standalone-note" data-t="install.already">Déjà installée sur ce téléphone ? Ouvrez-la depuis son icône.</p>
+        </div>
+      </div>
     </div>
-    <div>
-      <h4 style="font-size:12px;font-weight:700;color:rgba(255,255,255,0.4);text-transform:uppercase;letter-spacing:1px;margin-bottom:16px">L&eacute;gal</h4>
-      <a href="/confidentialite.html" style="display:block;font-size:14px;color:rgba(255,255,255,0.6);padding:3px 0">Confidentialit&eacute;</a>
-      <a href="/cgu.html" style="display:block;font-size:14px;color:rgba(255,255,255,0.6);padding:3px 0">CGU</a>
-      <a href="/mentions-legales.html" style="display:block;font-size:14px;color:rgba(255,255,255,0.6);padding:3px 0">Mentions l&eacute;gales</a>
+  </section>
+
+  <!-- Clients -->
+  <section class="section" id="clients">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow" data-t="clients.badge">Pour vous, client</span>
+        <h2 data-t="clients.title">Tout ce qu'il vous faut, dans votre quartier</h2>
+      </div>
+      <div class="grid grid-4" id="clients-grid"></div>
+    </div>
+  </section>
+
+  <!-- Vrais commerces (serveur) : cache s'il n'y en a pas assez -->
+  <section class="section white" id="pres-de-vous" hidden>
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow" data-t="shops.badge">Déjà sur AAANYIM</span>
+        <h2 data-t="shops.title">Ils vous attendent déjà</h2>
+        <p data-t="shops.sub">Touchez un commerce pour ouvrir sa vitrine.</p>
+      </div>
+      <div class="shops" id="shops-grid"></div>
+      <div class="center"><a class="btn btn-ghost" href="https://app.aaanyim.net/marketplace" data-t="shops.all">Voir tous les commerces</a></div>
+    </div>
+  </section>
+
+  <!-- Commercants -->
+  <section class="section sand" id="commercants">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow" data-t="merchants.badge">Pour vous, commerçant</span>
+        <h2 data-t="merchants.title">Votre commerce sur le téléphone de vos clients</h2>
+        <p data-t="merchants.sub">Et tout votre travail au même endroit : commandes, caisse, stock, équipe.</p>
+      </div>
+      <div class="grid grid-3" id="merchants-grid"></div>
+      <div class="merchant-cta">
+        <a class="btn btn-dark" href="https://app.aaanyim.net/register" data-t="merchants.create">Créer mon commerce</a>
+        <a class="btn btn-ghost" data-install href="#installer" data-t="nav.install">Installer l'app</a>
+      </div>
+      <p class="merchant-note" data-t="merchants.activities">Boutique, restaurant, salon, garage, laboratoire, école, hôtel… plus de cent activités.</p>
+    </div>
+  </section>
+
+  <!-- Activites -->
+  <section class="section" id="activites">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow" data-t="activities.badge">Votre activité</span>
+        <h2 data-t="activities.title">AAANYIM parle votre métier</h2>
+        <p data-t="activities.sub">Les mots, les écrans et les gestes changent avec votre activité.</p>
+      </div>
+      <div class="activities" id="activities-grid"></div>
+    </div>
+  </section>
+
+  <!-- WhatsApp -->
+  <section class="section white" id="whatsapp">
+    <div class="wrap wa-grid">
+      <div>
+        <div class="head" style="text-align:left;margin:0 0 24px">
+          <span class="eyebrow" data-t="whatsapp.badge">Sur WhatsApp aussi</span>
+          <h2 data-t="whatsapp.title">Pas d'application ? Écrivez simplement</h2>
+          <p data-t="whatsapp.sub">L'assistant AAANYIM répond au nom du commerce. Vous touchez, il fait le reste.</p>
+        </div>
+        <ol class="steps" id="wa-steps"></ol>
+        <div class="wa-actions">
+          <a class="btn btn-wa" data-wa="CM" href="https://wa.me/237689158764" target="_blank" rel="noopener" data-t="hero.waCM">WhatsApp Cameroun</a>
+          <a class="btn btn-wa" data-wa="TG" href="https://wa.me/22890897972" target="_blank" rel="noopener" data-t="hero.waTG">WhatsApp Togo</a>
+        </div>
+      </div>
+      <div>
+        <div class="chats" id="chats"></div>
+        <p class="chat-note" data-t="whatsapp.note"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services ouverts a tous -->
+  <section class="section sand" id="services">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow" data-t="services.badge">Ouvert à tous</span>
+        <h2 data-t="services.title">Des services sans compte</h2>
+        <p data-t="services.sub">Chaque page dit qui répond près de vous. Un service n'apparaît que là où il est ouvert.</p>
+      </div>
+      <div class="services" id="services-grid"></div>
+    </div>
+  </section>
+
+  <!-- Tarifs : le nombre de jours vient du serveur -->
+  <section class="section" id="tarifs">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow" data-t="pricing.badge">Tarifs</span>
+        <h2 data-t="pricing.title">Des tarifs simples, dits avant</h2>
+        <p data-t="pricing.sub">L'inscription est gratuite. Vous voyez toujours ce que coûte un paiement avant qu'il parte.</p>
+      </div>
+      <div class="prices">
+        <article class="price featured reveal"><h3 id="trial-title" data-t="pricing.trialTitleNoNumber">Un mois d'essai</h3><p data-t="pricing.trialText"></p></article>
+        <article class="price reveal"><h3 data-t="pricing.counterTitle">0 % sur la caisse</h3><p data-t="pricing.counterText"></p></article>
+        <article class="price reveal"><h3 data-t="pricing.momoTitle">Mobile Money : les frais du pays</h3><p data-t="pricing.momoText"></p></article>
+      </div>
+      <div class="center"><a class="link-arrow" href="https://app.aaanyim.net/pricing" data-t="pricing.all">Voir tous les tarifs</a></div>
+    </div>
+  </section>
+
+  <!-- Questions -->
+  <section class="section white" id="questions">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow" data-t="faq.badge">Questions</span>
+        <h2 data-t="faq.title">Vous vous demandez peut-être</h2>
+      </div>
+      <div class="faq" id="faq-list"></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section sand" id="contact">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow" data-t="contact.badge">Contact</span>
+        <h2 data-t="contact.title">On vous rappelle en moins de 24 h</h2>
+        <p data-t="contact.sub">Dites-nous ce que vous faites, on vous montre comment AAANYIM peut vous aider.</p>
+      </div>
+      <div class="contact-grid">
+        <form class="form" id="contact-form">
+          <div class="field"><label for="f-name" data-t="contact.name">Nom complet</label><input id="f-name" name="name" required autocomplete="name"></div>
+          <div class="field"><label for="f-phone" data-t="contact.phone">Téléphone (WhatsApp)</label><input id="f-phone" name="phone" type="tel" autocomplete="tel"></div>
+          <div class="field"><label for="f-email" data-t="contact.email">E-mail</label><input id="f-email" name="email" type="email" required autocomplete="email"></div>
+          <div class="field"><label for="f-company" data-t="contact.company">Nom de votre commerce</label><input id="f-company" name="company" autocomplete="organization"></div>
+          <div class="field full"><label for="sector-select" data-t="contact.sector">Votre activité</label><select id="sector-select" name="sector"></select></div>
+          <div class="field full"><label for="f-message" data-t="contact.message">Votre besoin</label><textarea id="f-message" name="message" required></textarea></div>
+          <div class="full"><button type="submit" class="btn btn-dark" style="width:100%" data-t="contact.submit">Envoyer</button></div>
+          <p class="form-notice full"><span data-t="contact.notice">Ces informations servent seulement à vous rappeler.</span> <a href="/confidentialite.html" data-t="contact.privacy">Confidentialité</a></p>
+          <p class="form-ok full" id="form-success" hidden data-t="contact.success">Merci ! On vous contacte dans les 24 h.</p>
+        </form>
+        <div>
+          <h3 style="font-size:20px;margin-bottom:14px" data-t="contact.direct">Écrivez-nous directement</h3>
+          <div class="channels">
+            <a class="channel wa" data-wa="CM" href="https://wa.me/237689158764" target="_blank" rel="noopener"><span class="ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.05 2a9.9 9.9 0 0 0-8.5 15l-1.5 5 5.2-1.4A9.9 9.9 0 1 0 12.05 2z"/></svg></span><span><span data-t="contact.waCM">WhatsApp Cameroun</span><small>+237 689 158 764</small></span></a>
+            <a class="channel wa" data-wa="TG" href="https://wa.me/22890897972" target="_blank" rel="noopener"><span class="ico"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.05 2a9.9 9.9 0 0 0-8.5 15l-1.5 5 5.2-1.4A9.9 9.9 0 1 0 12.05 2z"/></svg></span><span><span data-t="contact.waTG">WhatsApp Togo</span><small>+228 90 89 79 72</small></span></a>
+            <a class="channel" href="mailto:contact@aaanyim.net"><span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span><span><span data-t="contact.email">E-mail</span><small>contact@aaanyim.net</small></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a href="#top" class="logo"><svg viewBox="0 0 200 92" fill="none" aria-hidden="true" style="height:22px"><path d="M4 56 L30 56 L38 10 L46 82 L54 56 L78 56 L86 10 L94 82 L102 56 L126 56 L134 10 L142 82 L150 56 L196 56" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>AAANYIM</span></a>
+        <p class="footer-tag" data-t="footer.tagline">Construit au Togo et au Cameroun pour les commerces et leurs clients.</p>
+        <div class="socials">
+          <a href="https://web.facebook.com/profile.php?id=61588858364658" target="_blank" rel="noopener" aria-label="Facebook"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg></a>
+          <a href="https://www.instagram.com/aaanyim" target="_blank" rel="noopener" aria-label="Instagram"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4 data-t="footer.app">Application</h4>
+        <a href="https://app.aaanyim.net/marketplace" data-t="footer.openApp">Ouvrir AAANYIM</a>
+        <a data-install href="#installer" data-t="footer.install">Installer l'app</a>
+        <a href="https://app.aaanyim.net/register" data-t="footer.register">Créer mon commerce</a>
+        <a href="https://app.aaanyim.net/pricing" data-t="footer.pricing">Tarifs</a>
+      </div>
+      <div>
+        <h4 data-t="footer.order">Commander</h4>
+        <a data-wa="CM" href="https://wa.me/237689158764" target="_blank" rel="noopener" data-t="hero.waCM">WhatsApp Cameroun</a>
+        <a data-wa="TG" href="https://wa.me/22890897972" target="_blank" rel="noopener" data-t="hero.waTG">WhatsApp Togo</a>
+        <a href="https://app.aaanyim.net/marketplace" data-t="footer.marketplace">Les commerces</a>
+      </div>
+      <div>
+        <h4 data-t="footer.legal">Légal</h4>
+        <a href="/confidentialite.html" data-t="footer.privacy">Confidentialité</a>
+        <a href="/cgu.html" data-t="footer.terms">CGU</a>
+        <a href="/mentions-legales.html" data-t="footer.mentions">Mentions légales</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-t="footer.copyright">© 2026 AAANYIM TOGO SARLU · AAANYIM Cameroon SARL</span>
+      <span>contact@aaanyim.net</span>
     </div>
   </div>
-  <div style="display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(255,255,255,0.1);padding-top:20px;font-size:12px;color:rgba(255,255,255,0.3);flex-wrap:wrap;gap:8px">
-    <span>&copy; 2026 AAANYIM TOGO SARLU &middot; AAANYIM Cameroon SARL</span>
-    <span>contact@aaanyim.net &middot; <a href="/mentions-legales.html" style="color:rgba(255,255,255,0.4)">Mentions l&eacute;gales</a></span>
-  </div>
-</div></footer>
+</footer>
+
+<!-- Telephone : « Installer » reste a portee une fois le haut de page passe -->
+<div class="install-bar" id="install-bar">
+  <strong data-t="phone.installed">Sur votre écran d'accueil</strong>
+  <a class="btn btn-gold" data-install href="#installer">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>
+    <span data-t="nav.install">Installer l'app</span>
+  </a>
+</div>
 
 <script src="/js/config.js"></script>
-<script>
-var I18N = {
-  locales: {}, current: 'fr',
-  init: function() {
-    var saved = localStorage.getItem('aaanyim-lang');
-    this.current = (saved === 'fr' || saved === 'en') ? saved : 'fr';
-    this.locales.fr = {"nav":{"features":"Fonctionnalit\u00e9s","sectors":"Secteurs","how":"Comment \u00e7a marche","pricing":"Tarifs","contact":"Contact","cta":"Commander"},"hero":{"badge":"Marketplace WhatsApp","title_1":"Commandez par WhatsApp","title_2":"chez les commerces pr\u00e8s de chez vous.","subtitle":"Rien \u00e0 installer pour vos clients : tout se passe sur WhatsApp. Envoyez un message, recevez le catalogue en photos, commandez et payez \u00e0 la livraison. Pour les commer\u00e7ants : une application l\u00e9g\u00e8re et une gestion compl\u00e8te.","cta_cm":"\ud83c\udde8\ud83c\uddf2 Commander au Cameroun","cta_tg":"\ud83c\uddf9\ud83c\uddec Commander au Togo","cta_secondary":"Je suis commer\u00e7ant","trust":"Actif au Togo et au Cameroun"},"stats":{"s1_num":"2","s1_label":"Pays (Togo, Cameroun)","s2_num":"Appli l\u00e9g\u00e8re","s2_label":"Pour les commer\u00e7ants, sur tout t\u00e9l\u00e9phone","s3_num":"0","s3_label":"FCFA pour commencer"},"whatsapp":{"step1_title":"\u00c9crivez le nom du commerce","step1_desc":"Envoyez le nom de la boutique ou scannez son QR code sur WhatsApp : \ud83c\udde8\ud83c\uddf2 +237 689 158 764 ou \ud83c\uddf9\ud83c\uddec +228 90 89 79 72","try_cm":"\ud83c\udde8\ud83c\uddf2 Essayer au Cameroun","try_tg":"\ud83c\uddf9\ud83c\uddec Essayer au Togo","subtitle":"Rien \u00e0 installer : envoyez un message et commandez en quelques secondes.","step2_title":"Recevez le catalogue en photos","step2_desc":"Les produits disponibles avec leurs prix, directement dans WhatsApp","step3_title":"Commandez et payez \u00e0 la livraison","step3_desc":"Confirmez votre commande et payez en esp\u00e8ces ou par Mobile Money"},"problem":{"badge":"Le constat","title":"En Afrique, les PME perdent une part importante de leur chiffre d\u2019affaires","cards":[{"icon":"\ud83d\udc41\ufe0f","title":"Pas de contr\u00f4le \u00e0 distance","desc":"Quand vous n\u2019\u00eates pas sur place, impossible de savoir ce qui se passe. Les stocks fondent, l\u2019argent dispara\u00eet."},{"icon":"\ud83d\udcb8","title":"Cash incontr\u00f4l\u00e9","desc":"Les employ\u00e9s repartent avec l\u2019argent, pas de re\u00e7u, pas de trace. Vous d\u00e9couvrez les \u00e9carts trop tard."},{"icon":"\ud83d\udcc9","title":"Pertes invisibles","desc":"Produits p\u00e9rim\u00e9s, commandes oubli\u00e9es, stocks mal g\u00e9r\u00e9s \u2014 sans outil, vous ne savez m\u00eame pas combien vous perdez."}]},"sectors":{"badge":"Multi-secteurs","title":"Quel que soit votre business, AAANYIM s\u2019adapte","subtitle":"AAANYIM s\u2019adapte \u00e0 la fa\u00e7on de travailler de chaque activit\u00e9 : ses mots, ses \u00e9crans, ses gestes.","list":[{"icon":"\ud83c\udf7d\ufe0f","name":"Restaurants & maquis","desc":"Commandes \u00e0 table par QR code, \u00e9cran cuisine, ardoises, le client suit la pr\u00e9paration"},{"icon":"\ud83d\uded2","name":"Boutiques & alimentation","desc":"Caisse avec lecture des codes-barres, stock, livraisons, vitrine en ligne"},{"icon":"\ud83e\uddea","name":"Laboratoires & sant\u00e9","desc":"Dossiers, r\u00e9sultats remis par lien et code, organismes payeurs, prescripteurs, consommables"},{"icon":"\ud83d\udc87","name":"Beaut\u00e9 & bien-\u00eatre","desc":"Rendez-vous pris dans WhatsApp, vitrine en ligne, consommables, dossier de chaque client"},{"icon":"\ud83d\udd27","name":"Garages & r\u00e9paration","desc":"Bons de travail, diagnostic remis au client, pi\u00e8ces en stock"},{"icon":"\ud83c\udfe0","name":"H\u00e9bergement & immobilier","desc":"R\u00e9servations, devis, \u00e9tat des lieux remis au client, vitrine en ligne"},{"icon":"\ud83c\udf93","name":"Cours & formations","desc":"Rendez-vous, bulletins remis par lien et code, vitrine en ligne"},{"icon":"\ud83d\udc14","name":"\u00c9levage & culture","desc":"Cycles de production, co\u00fbts et ventes, livraisons, revendeurs"},{"icon":"\ud83d\udca7","name":"Production & distribution","desc":"Eau, gaz, boulangerie : production, consignes, tourn\u00e9es des livreurs, revendeurs"},{"icon":"\ud83d\udcbc","name":"Services & conseil","desc":"Devis, interventions, comptes rendus remis au client"},{"icon":"\u2795","name":"Et bien d\u2019autres\u2026","desc":"Plus de cent activit\u00e9s sont pr\u00e9vues. Si vous servez des clients, AAANYIM est fait pour vous."}]},"solution":{"badge":"Ce que vous gagnez","title":"Tout ce dont un entrepreneur a besoin, dans sa poche","features":[{"icon":"\ud83d\udcf1","title":"G\u00e9rez tout depuis votre t\u00e9l\u00e9phone","desc":"Commandes, stocks, livraisons, paiements, \u00e9quipe \u2014 tout dans une seule application."},{"icon":"\ud83d\udce1","title":"Sans r\u00e9seau, rien ne se perd","desc":"Vos gestes sont gard\u00e9s sur le t\u00e9l\u00e9phone et envoy\u00e9s d\u00e8s que le r\u00e9seau revient. Seuls les paiements demandent internet."},{"icon":"\ud83d\udcb0","title":"Fini le cash qui dispara\u00eet","desc":"Paiement mobile int\u00e9gr\u00e9. Chaque transaction est trac\u00e9e."},{"icon":"\ud83d\udcca","title":"Tableau de bord en temps r\u00e9el","desc":"Ventes, stocks, finances, \u00e9quipe \u2014 tout visible d\u2019un coup d\u2019\u0153il."},{"icon":"\ud83d\ude9a","title":"Suivez chaque livraison","desc":"Vos livreurs confirment chaque arr\u00eat. Vous voyez en temps r\u00e9el ce qui est livr\u00e9, vendu ou retourn\u00e9."},{"icon":"\ud83c\udf0d","title":"D\u00e9veloppez-vous sans limites","desc":"Multi-sites, multi-villes, multi-pays. Votre outil grandit avec vous."}]},"how":{"badge":"Simple comme bonjour","title":"Op\u00e9rationnel en 3 \u00e9tapes","steps":[{"num":"01","title":"Cr\u00e9ez votre compte","desc":"En 2 minutes. Votre espace est pr\u00eat avec les outils adapt\u00e9s \u00e0 votre secteur."},{"num":"02","title":"Ajoutez votre \u00e9quipe","desc":"Livreurs, vendeurs, employ\u00e9s \u2014 chacun re\u00e7oit l\u2019application avec les fonctions qui le concernent."},{"num":"03","title":"C\u2019est parti","desc":"G\u00e9rez, livrez, encaissez. Vous voyez tout depuis votre tableau de bord en temps r\u00e9el."}]},"pricing":{"badge":"Tarifs transparents","title":"Un tarif qui s\u2019adapte \u00e0 votre business","subtitle":"Commencez gratuitement. Payez uniquement quand vous vendez. Ou choisissez un forfait fixe.","cta":"Demander un acc\u00e8s","cta_enterprise":"Nous contacter","popular":"Recommand\u00e9","plans":[{"name":"Commission","price":"0 FCFA","desc":"Vous ne payez que quand vous vendez","features":["3% par vente via AAANYIM","Ventes comptoir : 0%","Commandes illimit\u00e9es","Employ\u00e9s illimit\u00e9s","Vitrine en ligne incluse","Support WhatsApp"]},{"name":"Forfait","price":"15 000 FCFA","period":"/mois","desc":"Un montant fixe, z\u00e9ro surprise","popular":true,"features":["0% de commission par vente","Montant fixe mensuel","Commandes illimit\u00e9es","Employ\u00e9s illimit\u00e9s","Tableau de bord avanc\u00e9","Support prioritaire"]},{"name":"Sur mesure","price":"Contactez-nous","desc":"Pour les grandes structures","features":["Forfait + commission r\u00e9duite","Multi-sites et multi-pays","Int\u00e9grations personnalis\u00e9es","Gestionnaire de compte d\u00e9di\u00e9","Formation sur site","Facturation valid\u00e9e"]}]},"cta_section":{"title":"Pr\u00eat \u00e0 essayer ?","subtitle":"Envoyez un message WhatsApp et commandez en quelques secondes. Commer\u00e7ant ? Cr\u00e9ez votre vitrine gratuitement.","cta_cm":"\ud83c\udde8\ud83c\uddf2 Commander au Cameroun","cta_tg":"\ud83c\uddf9\ud83c\uddec Commander au Togo"},"contact":{"badge":"Contactez-nous","title":"On vous rappelle en moins de 24h","subtitle":"Dites-nous ce que vous faites, on vous montre comment AAANYIM peut vous aider.","whatsapp_label":"Nous \u00e9crire sur WhatsApp","form":{"name":"Nom complet","email":"Email","phone":"T\u00e9l\u00e9phone (WhatsApp)","company":"Nom de votre entreprise","sector":"Votre secteur d\u2019activit\u00e9","sectors":["Commerce","Production","Services","Distribution","Restauration","Pharmacie","Autre"],"message":"D\u00e9crivez votre besoin","submit":"Envoyer","success":"Merci ! On vous contacte dans les 24h.","whatsapp":"Contactez-nous directement","notice":"Ces informations servent seulement \u00e0 vous rappeler. Elles nous parviennent par Formspree (\u00c9tats-Unis). D\u00e9tails : Confidentialit\u00e9."}},"roles":{"badge":"Un seul WhatsApp, pour chaque r\u00f4le","title":"Chaque personne a son interface","subtitle":"Exemples de conversations. Les messages de l\u2019assistant sont ceux qu\u2019il envoie vraiment ; les commerces et les noms sont invent\u00e9s.","example":"Exemple","list":[{"label":"Client \u00b7 Commander","desc":"On \u00e9crit le nom du commerce, il r\u00e9pond.","msgs":[{"me":"Chez Ama"},{"bot":"*Chez Ama vous r\u00e9pond*\nBonjour ! Comment voulez-vous commander ?","btn":["Commander en 1 min","Commander ici","Autre demande"]}]},{"label":"Client \u00b7 Prendre rendez-vous","desc":"Le rendez-vous se prend dans la discussion.","msgs":[{"bot":"*Salon \u00c9toile vous r\u00e9pond*\nQuelle prestation souhaitez-vous ?","btn":["Les prestations"]},{"me":"Tresses"},{"bot":"*Tresses*\nQuel jour vous convient ?","btn":["Choisir le jour"]},{"me":"Demain"},{"bot":"Demain : choisissez votre heure.","btn":["Choisir l\u2019heure"]},{"me":"10:00"},{"bot":"*Rendez-vous \u00b7 Salon \u00c9toile*\nTresses \u2014 5 000 FCFA\nDemain, 10:00\nSur place, chez Salon \u00c9toile\n*Total 5 000 FCFA*\n\u00c0 payer sur place\n\nJe r\u00e9serve ?","btn":["Confirmer","Autre heure","Menu"]},{"me":"Confirmer"},{"bot":"C\u2019est r\u00e9serv\u00e9. Salon \u00c9toile est pr\u00e9venu.","btn":["Itin\u00e9raire","D\u00e9placer","Menu"]}]},{"label":"Client \u00b7 Livraison","desc":"Pr\u00e9venu quand la commande part, il confirme la remise.","msgs":[{"bot":"*Chez Ama* \u2014 votre commande CMD-4821 est en route \ud83d\udef5\nKofi arrive. Touchez \u00ab J\u2019ai re\u00e7u \u00bb \u00e0 la remise, ou \u00ab Un probl\u00e8me \u00bb si quelque chose ne va pas.","btn":["J\u2019ai re\u00e7u","Un probl\u00e8me"]},{"me":"J\u2019ai re\u00e7u"},{"bot":"Merci ! Chez Ama est pr\u00e9venu que vous avez bien re\u00e7u votre commande. Bonne journ\u00e9e."}]},{"label":"G\u00e9rant \u00b7 Ses chiffres","desc":"Un mot, et la journ\u00e9e est r\u00e9sum\u00e9e.","msgs":[{"me":"chiffres"},{"bot":"Aujourd\u2019hui : 12 commandes, dont 3 nouvelles.\nEn attente : 2 | Confirm\u00e9es : 4 | Livr\u00e9es : 6\nChiffre d\u2019affaires du jour : 84 500 FCFA"}]},{"label":"Employ\u00e9 \u00b7 Pointer","desc":"Il \u00e9crit qu\u2019il arrive, c\u2019est enregistr\u00e9.","msgs":[{"me":"j\u2019arrive"},{"bot":"Arriv\u00e9e enregistr\u00e9e \u00e0 07:58.\nEnvoyez votre position pour confirmer le lieu (facultatif).\nBonne journ\u00e9e !"}]},{"label":"Livreur \u00b7 Sa tourn\u00e9e","desc":"Il voit ses arr\u00eats et confirme chaque remise.","msgs":[{"me":"mes courses"},{"bot":"1 tourn\u00e9e en cours :\n\nEn cours \u2014 2 arr\u00eats (1 fait, 1 restant)\n\n\u00c9crivez \u00ab d\u00e9marrer \u00bb ou \u00ab livr\u00e9 \u00bb pour avancer."},{"me":"livr\u00e9"},{"bot":"Arr\u00eat confirm\u00e9 : Mme Afi\nTourn\u00e9e termin\u00e9e, bravo !"}]},{"label":"Revendeur \u00b7 Commander","desc":"Il dit le produit et la quantit\u00e9 \u00e0 son fournisseur.","msgs":[{"me":"20 baguettes"},{"bot":"20 Baguette = 3 000 FCFA chez Boulangerie du March\u00e9.\nR\u00e9pondez OUI pour confirmer."},{"me":"OUI"},{"bot":"Commande CMD-5130 cr\u00e9\u00e9e !\nVotre fournisseur va la traiter."},{"me":"mon cr\u00e9dit"},{"bot":"Cr\u00e9dit fournisseur :\n\nScore AAANYIM : 78/100 (Bon)\nPlafond : 150 000 FCFA\nEn cours : 40 000 FCFA\nDisponible : 110 000 FCFA"}]}]},"footer":{"desc":"Commandez par WhatsApp chez les commerces pr\u00e8s de chez vous.","product":"Produit","legal":"L\u00e9gal","links":{"features":"Fonctionnalit\u00e9s","pricing":"Tarifs","demo":"D\u00e9mo","privacy":"Confidentialit\u00e9","terms":"CGU"},"copyright":"\u00a9 2026 AAANYIM TOGO SARLU \u00b7 AAANYIM Cameroon SARL"},"services":{"badge":"Pour tout le monde","title":"Des services ouverts \u00e0 tous, sans compte","subtitle":"Trouver, demander, r\u00e9server, faire livrer : chaque page dit qui r\u00e9pond pr\u00e8s de vous. Un service n\u2019appara\u00eet que l\u00e0 o\u00f9 il est ouvert.","open":"Ouvrir","list":[{"group":"Trouver","name":"Annuaire","desc":"Tous les commerces pr\u00e8s de vous","url":"https://app.aaanyim.net/annuaire"},{"group":"Trouver","name":"Comparer les prix","desc":"Le m\u00eame produit, plusieurs boutiques","url":"https://app.aaanyim.net/comparer"},{"group":"Trouver","name":"Arrivages","desc":"Ce qui vient d\u2019arriver en boutique","url":"https://app.aaanyim.net/arrivages"},{"group":"Demander","name":"Demander un service","desc":"Plombier, m\u00e9canicien, coiffeuse\u2026 ils vous r\u00e9pondent","url":"https://app.aaanyim.net/demande-service"},{"group":"Demander","name":"Demander un devis","desc":"Un prix avant de vous engager","url":"https://app.aaanyim.net/devis"},{"group":"R\u00e9server","name":"Prendre rendez-vous","desc":"Salons, cabinets, cours, h\u00f4tels","url":"https://app.aaanyim.net/reserver"},{"group":"Faire livrer","name":"Envoyer un colis","desc":"Dans la ville ou vers une autre ville","url":"https://app.aaanyim.net/envoyer-colis"},{"group":"Faire livrer","name":"Livraison express","desc":"Un coursier tout de suite","url":"https://app.aaanyim.net/livraison-express"},{"group":"Acheter","name":"Acheter en gros","desc":"Grossistes et producteurs","url":"https://app.aaanyim.net/marketplace/b2b"},{"group":"Travailler","name":"Emplois","desc":"Les commerces qui recrutent","url":"https://app.aaanyim.net/public/jobs"},{"group":"Mon compte","name":"Mes commandes","desc":"Suivre, recommander, retrouver ses documents","url":"https://app.aaanyim.net/mes-commandes"},{"group":"Mon compte","name":"Mon carnet","desc":"Entr\u00e9es, d\u00e9penses, \u00ab on me doit \u00bb et \u00ab je dois \u00bb","url":"https://app.aaanyim.net/mon-carnet"}]}};
-    this.locales.en = {"nav":{"features":"Features","sectors":"Sectors","how":"How it works","pricing":"Pricing","contact":"Contact","cta":"Order"},"hero":{"badge":"WhatsApp Marketplace","title_1":"Order on WhatsApp","title_2":"from shops near you.","subtitle":"Nothing to install for your customers: everything happens on WhatsApp. Send a message, browse the catalogue in photos, order and pay on delivery. For shop owners: a lightweight app and full management.","cta_cm":"\ud83c\udde8\ud83c\uddf2 Order in Cameroon","cta_tg":"\ud83c\uddf9\ud83c\uddec Order in Togo","cta_secondary":"I\u2019m a shop owner","trust":"Active in Togo and Cameroon"},"stats":{"s1_num":"2","s1_label":"Countries (Togo, Cameroon)","s2_num":"Lightweight app","s2_label":"For shop owners, on any phone","s3_num":"0","s3_label":"FCFA to get started"},"whatsapp":{"step1_title":"Type the shop name","step1_desc":"Send the shop name or scan its QR code on WhatsApp: \ud83c\udde8\ud83c\uddf2 +237 689 158 764 or \ud83c\uddf9\ud83c\uddec +228 90 89 79 72","try_cm":"\ud83c\udde8\ud83c\uddf2 Try in Cameroon","try_tg":"\ud83c\uddf9\ud83c\uddec Try in Togo","subtitle":"Nothing to install: send a message and order in seconds.","step2_title":"Receive the catalogue in photos","step2_desc":"Available products with prices, right in WhatsApp","step3_title":"Order and pay on delivery","step3_desc":"Confirm your order and pay in cash or by Mobile Money"},"problem":{"badge":"The reality","title":"In Africa, SMEs lose a significant share of their revenue","cards":[{"icon":"\ud83d\udc41\ufe0f","title":"No remote control","desc":"When you\u2019re not on site, you have no idea what\u2019s happening. Stock vanishes, money disappears."},{"icon":"\ud83d\udcb8","title":"Uncontrolled cash","desc":"Employees leave with cash, no receipt, no trace. You find out about discrepancies too late."},{"icon":"\ud83d\udcc9","title":"Invisible losses","desc":"Expired products, forgotten orders, mismanaged stock \u2014 without a tool, you don\u2019t even know how much you\u2019re losing."}]},"sectors":{"badge":"All sectors","title":"Whatever your business, AAANYIM adapts","subtitle":"AAANYIM adapts to the way each activity works: its words, its screens, its actions.","list":[{"icon":"\ud83c\udf7d\ufe0f","name":"Restaurants","desc":"Table orders by QR code, kitchen screen, tabs, the customer follows the preparation"},{"icon":"\ud83d\uded2","name":"Shops & groceries","desc":"Till with barcode scanning, stock, deliveries, online storefront"},{"icon":"\ud83e\uddea","name":"Laboratories & health","desc":"Files, results delivered by link and code, payers, referrers, supplies"},{"icon":"\ud83d\udc87","name":"Beauty & wellness","desc":"Appointments booked in WhatsApp, online storefront, supplies, a file for each client"},{"icon":"\ud83d\udd27","name":"Garages & repair","desc":"Work orders, diagnosis given to the client, parts in stock"},{"icon":"\ud83c\udfe0","name":"Lodging & real estate","desc":"Bookings, quotes, inventory report given to the client, online storefront"},{"icon":"\ud83c\udf93","name":"Classes & training","desc":"Appointments, report cards delivered by link and code, online storefront"},{"icon":"\ud83d\udc14","name":"Livestock & farming","desc":"Production cycles, costs and sales, deliveries, resellers"},{"icon":"\ud83d\udca7","name":"Production & distribution","desc":"Water, gas, bakery: production, deposits, delivery rounds, resellers"},{"icon":"\ud83d\udcbc","name":"Services & consulting","desc":"Quotes, call-outs, reports given to the client"},{"icon":"\u2795","name":"And many more\u2026","desc":"More than a hundred activities are planned. If you serve customers, AAANYIM is made for you."}]},"solution":{"badge":"What you gain","title":"Everything an entrepreneur needs, in their pocket","features":[{"icon":"\ud83d\udcf1","title":"Manage everything from your phone","desc":"Orders, stock, deliveries, payments, team \u2014 all in one app."},{"icon":"\ud83d\udce1","title":"No network, nothing is lost","desc":"Your actions are kept on the phone and sent as soon as the network is back. Only payments need the internet."},{"icon":"\ud83d\udcb0","title":"No more disappearing cash","desc":"Built-in mobile payment. Every transaction is tracked."},{"icon":"\ud83d\udcca","title":"Real-time dashboard","desc":"Sales, stock, finances, team \u2014 all visible at a glance."},{"icon":"\ud83d\ude9a","title":"Track every delivery","desc":"Your drivers confirm each stop. Real-time visibility on what\u2019s delivered, sold, or returned."},{"icon":"\ud83c\udf0d","title":"Scale without limits","desc":"Multi-site, multi-city, multi-country. Your tool grows with you."}]},"how":{"badge":"Dead simple","title":"Up and running in 3 steps","steps":[{"num":"01","title":"Create your account","desc":"In 2 minutes. Your workspace is ready with tools for your sector."},{"num":"02","title":"Add your team","desc":"Drivers, sellers, employees \u2014 each gets the app with features for their role."},{"num":"03","title":"You\u2019re live","desc":"Manage, deliver, collect. See everything from your real-time dashboard."}]},"pricing":{"badge":"Transparent pricing","title":"Pricing that adapts to your business","subtitle":"Start free. Pay only when you sell. Or choose a fixed plan.","cta":"Request access","cta_enterprise":"Contact us","popular":"Recommended","plans":[{"name":"Commission","price":"0 FCFA","desc":"You only pay when you sell","features":["3% per sale via AAANYIM","Counter sales: 0%","Unlimited orders","Unlimited employees","Online storefront included","WhatsApp support"]},{"name":"Flat rate","price":"15,000 FCFA","period":"/month","desc":"A fixed amount, zero surprises","popular":true,"features":["0% commission per sale","Fixed monthly amount","Unlimited orders","Unlimited employees","Advanced dashboard","Priority support"]},{"name":"Custom","price":"Contact us","desc":"For large operations","features":["Flat rate + reduced commission","Multi-site & multi-country","Custom integrations","Dedicated account manager","On-site training","Validated invoicing"]}]},"cta_section":{"title":"Ready to try?","subtitle":"Send a WhatsApp message and order in seconds. Shop owner? Create your free storefront.","cta_cm":"\ud83c\udde8\ud83c\uddf2 Order in Cameroon","cta_tg":"\ud83c\uddf9\ud83c\uddec Order in Togo"},"contact":{"badge":"Contact us","title":"We\u2019ll get back to you within 24h","subtitle":"Tell us what you do, we\u2019ll show you how AAANYIM can help.","whatsapp_label":"Message us on WhatsApp","form":{"name":"Full name","email":"Email","phone":"Phone (WhatsApp)","company":"Your company name","sector":"Your sector","sectors":["Retail","Production","Services","Distribution","Food & restaurant","Pharmacy","Other"],"message":"Describe your needs","submit":"Send","success":"Thanks! We\u2019ll contact you within 24h.","whatsapp":"Contact us directly","notice":"This information is only used to call you back. It reaches us through Formspree (United States). Details: Privacy."}},"roles":{"badge":"One WhatsApp, for every role","title":"Each person has their own interface","subtitle":"Example conversations. The assistant\u2019s messages are the ones it really sends; shops and names are invented.","example":"Example","list":[{"label":"Customer \u00b7 Order","desc":"Write the shop\u2019s name, it answers.","msgs":[{"me":"Chez Ama"},{"bot":"*Chez Ama is answering*\nHello! How would you like to order?","btn":["Order in 1 min","Order here","Something else"]}]},{"label":"Customer \u00b7 Book an appointment","desc":"The appointment is booked in the chat.","msgs":[{"bot":"*Salon \u00c9toile is replying*\nWhich service would you like?","btn":["Services"]},{"me":"Braids"},{"bot":"*Braids*\nWhich day suits you?","btn":["Choose the day"]},{"me":"Tomorrow"},{"bot":"Tomorrow: choose your time.","btn":["Choose the time"]},{"me":"10:00"},{"bot":"*Appointment \u00b7 Salon \u00c9toile*\nBraids \u2014 5 000 FCFA\nTomorrow, 10:00\nOn site, at Salon \u00c9toile\n*Total 5 000 FCFA*\nPay on site\n\nShall I book it?","btn":["Confirm","Another time","Menu"]},{"me":"Confirm"},{"bot":"It is booked. Salon \u00c9toile has been told.","btn":["Directions","Reschedule","Menu"]}]},{"label":"Customer \u00b7 Delivery","desc":"Told when the order leaves, they confirm receipt.","msgs":[{"bot":"*Chez Ama* \u2014 your order CMD-4821 is on its way \ud83d\udef5\nKofi is coming. Tap \u00ab Received \u00bb on delivery, or \u00ab A problem \u00bb if something is wrong.","btn":["Received","A problem"]},{"me":"Received"},{"bot":"Thank you! Chez Ama knows you received your order. Have a good day."}]},{"label":"Manager \u00b7 Today\u2019s figures","desc":"One word, and the day is summed up.","msgs":[{"me":"chiffres"},{"bot":"Today: 12 orders, 3 new.\nPending: 2 | Confirmed: 4 | Delivered: 6\nRevenue today: 84 500 FCFA"}]},{"label":"Employee \u00b7 Clock in","desc":"They write that they are here, it is recorded.","msgs":[{"me":"I\u2019m here"},{"bot":"Arrival recorded at 07:58.\nSend your location to confirm the place (optional).\nHave a good day!"}]},{"label":"Driver \u00b7 The round","desc":"They see their stops and confirm each delivery.","msgs":[{"me":"my deliveries"},{"bot":"1 active round:\n\nIn progress \u2014 2 stops (1 done, 1 left)\n\nWrite \"d\u00e9marrer\" (start) or \"livr\u00e9\" (delivered) to move on."},{"me":"livr\u00e9"},{"bot":"Stop confirmed: Mme Afi\nRound finished, well done!"}]},{"label":"Reseller \u00b7 Order","desc":"They tell their supplier the product and the quantity.","msgs":[{"me":"20 baguettes"},{"bot":"20 Baguette = 3 000 FCFA from Boulangerie du March\u00e9.\nReply YES to confirm."},{"me":"YES"},{"bot":"Order CMD-5130 created!\nYour supplier will process it."}]}]},"footer":{"desc":"Order on WhatsApp from shops near you.","product":"Product","legal":"Legal","links":{"features":"Features","pricing":"Pricing","demo":"Demo","privacy":"Privacy","terms":"Terms"},"copyright":"\u00a9 2026 AAANYIM TOGO SARLU \u00b7 AAANYIM Cameroon SARL"},"services":{"badge":"For everyone","title":"Services open to all, no account needed","subtitle":"Find, ask, book, get it delivered: each page says who answers near you. A service only shows where it is open.","open":"Open","list":[{"group":"Find","name":"Directory","desc":"All businesses near you","url":"https://app.aaanyim.net/annuaire"},{"group":"Find","name":"Compare prices","desc":"The same product, several shops","url":"https://app.aaanyim.net/comparer"},{"group":"Find","name":"New arrivals","desc":"What just arrived in shops","url":"https://app.aaanyim.net/arrivages"},{"group":"Ask","name":"Request a service","desc":"Plumber, mechanic, hairdresser\u2026 they answer you","url":"https://app.aaanyim.net/demande-service"},{"group":"Ask","name":"Ask for a quote","desc":"A price before you commit","url":"https://app.aaanyim.net/devis"},{"group":"Book","name":"Book an appointment","desc":"Salons, practices, classes, hotels","url":"https://app.aaanyim.net/reserver"},{"group":"Deliver","name":"Send a parcel","desc":"Within the city or to another city","url":"https://app.aaanyim.net/envoyer-colis"},{"group":"Deliver","name":"Express delivery","desc":"A courier right now","url":"https://app.aaanyim.net/livraison-express"},{"group":"Buy","name":"Buy wholesale","desc":"Wholesalers and producers","url":"https://app.aaanyim.net/marketplace/b2b"},{"group":"Work","name":"Jobs","desc":"Businesses that are hiring","url":"https://app.aaanyim.net/public/jobs"},{"group":"My account","name":"My orders","desc":"Track, reorder, find your documents","url":"https://app.aaanyim.net/mes-commandes"},{"group":"My account","name":"My notebook","desc":"Money in, money out, \u201cowed to me\u201d and \u201cI owe\u201d","url":"https://app.aaanyim.net/mon-carnet"}]}};
-    this.apply(); this.bindLangButtons(); return Promise.resolve();
-  },
-  t: function(key) { var keys = key.split('.'); var val = this.locales[this.current]; for (var i = 0; i < keys.length; i++) { if (val == null) return key; val = Array.isArray(val) ? val[parseInt(keys[i])] : val[keys[i]]; } return val != null ? val : key; },
-  switch: function(lang) { if (!this.locales[lang]) return; this.current = lang; localStorage.setItem('aaanyim-lang', lang); this.apply(); this.bindLangButtons(); },
-  apply: function() {
-    var self = this;
-    document.querySelectorAll('[data-i18n]').forEach(function(el) {
-      var val = self.t(el.getAttribute('data-i18n'));
-      if (typeof val === 'string') {
-        if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') { el.placeholder = val; }
-        else { el.textContent = val; }
-      }
-    });
-    var modelEl = document.querySelector('[data-i18n="pricing.model"]');
-    if (modelEl) {
-      var modelText = self.t('pricing.model');
-      if (typeof modelText === 'string') {
-        var parts = modelText.split(/<\/?strong>/);
-        modelEl.textContent = '';
-        parts.forEach(function(part, i) {
-          if (i === 1) {
-            var strong = document.createElement('strong');
-            strong.textContent = part;
-            modelEl.appendChild(strong);
-          } else {
-            modelEl.appendChild(document.createTextNode(part));
-          }
-        });
-      }
-    }
-    this.renderProblemCards(); this.renderFeatureCards(); this.renderSectorCards(); this.renderSteps(); this.renderPricingCards(); this.renderSectorOptions(); this.renderRoles(); this.renderServices(); document.documentElement.lang = this.current;
-  },
-  bindLangButtons: function() { var self = this; document.querySelectorAll('.nav-lang button').forEach(function(btn) { btn.classList.toggle('active', btn.dataset.lang === self.current); btn.onclick = function() { self.switch(btn.dataset.lang); }; }); },
-  renderProblemCards: function() { var c = document.getElementById('problem-cards'); if (!c) return; var cards = this.t('problem.cards'); if (!Array.isArray(cards)) return; c.textContent = ''; cards.forEach(function(d) { var div = document.createElement('div'); div.className = 'problem-card fade-up'; var icon = document.createElement('span'); icon.className = 'icon'; icon.textContent = d.icon; div.appendChild(icon); var h3 = document.createElement('h3'); h3.textContent = d.title; var p = document.createElement('p'); p.textContent = d.desc; div.appendChild(h3); div.appendChild(p); c.appendChild(div); }); },
-  renderFeatureCards: function() { var c = document.getElementById('feature-cards'); if (!c) return; var f = this.t('solution.features'); if (!Array.isArray(f)) return; c.textContent = ''; f.forEach(function(ft) { var div = document.createElement('div'); div.className = 'feature-card fade-up'; var ic = document.createElement('div'); ic.className = 'icon'; ic.textContent = ft.icon; div.appendChild(ic); var h3 = document.createElement('h3'); h3.textContent = ft.title; var p = document.createElement('p'); p.textContent = ft.desc; div.appendChild(h3); div.appendChild(p); c.appendChild(div); }); },
-  renderSectorCards: function() { var c = document.getElementById('sectors-cards'); if (!c) return; var s = this.t('sectors.list'); if (!Array.isArray(s)) return; c.textContent = ''; s.forEach(function(sec, i) { var div = document.createElement('div'); div.className = 'sector-card fade-up' + (i === s.length - 1 ? ' more' : ''); var icon = document.createElement('span'); icon.className = 'sector-icon'; icon.textContent = sec.icon; var h3 = document.createElement('h3'); h3.textContent = sec.name; var p = document.createElement('p'); p.textContent = sec.desc; div.appendChild(icon); div.appendChild(h3); div.appendChild(p); c.appendChild(div); }); },
-  renderSteps: function() { var c = document.getElementById('steps-container'); if (!c) return; var s = this.t('how.steps'); if (!Array.isArray(s)) return; c.textContent = ''; s.forEach(function(st) { var div = document.createElement('div'); div.className = 'step fade-up'; var num = document.createElement('div'); num.className = 'step-num'; num.textContent = st.num; var h3 = document.createElement('h3'); h3.textContent = st.title; var p = document.createElement('p'); p.textContent = st.desc; div.appendChild(num); div.appendChild(h3); div.appendChild(p); c.appendChild(div); }); },
-  renderPricingCards: function() { var c = document.getElementById('pricing-cards'); if (!c) return; var plans = this.t('pricing.plans'); if (!Array.isArray(plans)) return; var cta = this.t('pricing.cta'); var ctaE = this.t('pricing.cta_enterprise'); var popLabel = this.t('pricing.popular'); c.textContent = ''; plans.forEach(function(p) { var div = document.createElement('div'); div.className = 'pricing-card fade-up' + (p.popular ? ' popular' : ''); if (p.popular) { var badge = document.createElement('span'); badge.className = 'pricing-badge'; badge.textContent = popLabel; div.appendChild(badge); } var name = document.createElement('div'); name.className = 'pricing-name'; name.textContent = p.name; var desc = document.createElement('div'); desc.className = 'pricing-desc'; desc.textContent = p.desc; var price = document.createElement('div'); price.className = 'pricing-price'; price.textContent = p.price; if (p.period) { var per = document.createElement('span'); per.className = 'period'; per.textContent = p.period; price.appendChild(per); } var ul = document.createElement('ul'); ul.className = 'pricing-features'; p.features.forEach(function(f) { var li = document.createElement('li'); li.textContent = f; ul.appendChild(li); }); var btn = document.createElement('button'); btn.className = 'pricing-cta'; btn.textContent = p.name === 'Sur mesure' || p.name === 'Custom' ? ctaE : cta; btn.onclick = function() { document.getElementById('contact').scrollIntoView({behavior:'smooth'}); }; div.appendChild(name); div.appendChild(desc); div.appendChild(price); div.appendChild(ul); div.appendChild(btn); c.appendChild(div); }); },
-  renderSectorOptions: function() { var sel = document.getElementById('sector-select'); if (!sel) return; var s = this.t('contact.form.sectors'); if (!Array.isArray(s)) return; sel.textContent = ''; var opt0 = document.createElement('option'); opt0.value = ''; opt0.textContent = this.t('contact.form.sector'); sel.appendChild(opt0); s.forEach(function(sec) { var opt = document.createElement('option'); opt.value = sec; opt.textContent = sec; sel.appendChild(opt); }); },
-  renderServices: function() { var c = document.getElementById('services-grid'); if (!c) return; var list = this.t('services.list'); if (!Array.isArray(list)) return; c.textContent = ''; list.forEach(function(sv) { var a = document.createElement('a'); a.className = 'svc-card fade-up'; a.href = sv.url; a.target = '_blank'; a.rel = 'noopener'; var g = document.createElement('span'); g.className = 'svc-group'; g.textContent = sv.group; var n = document.createElement('span'); n.className = 'svc-name'; n.textContent = sv.name; var d = document.createElement('span'); d.className = 'svc-desc'; d.textContent = sv.desc; a.appendChild(g); a.appendChild(n); a.appendChild(d); c.appendChild(a); }); },
-  renderRoles: function() { var c = document.getElementById('roles-grid'); if (!c) return; var chats = this.t('roles.list'); if (!Array.isArray(chats)) return; var ex = this.t('roles.example'); c.textContent = ''; function rich(el, text) { String(text).split('\n').forEach(function(line, i) { if (i) el.appendChild(document.createElement('br')); line.split(/\*([^*]+)\*/).forEach(function(part, j) { if (!part) return; if (j % 2) { var b = document.createElement('strong'); b.textContent = part; el.appendChild(b); } else { el.appendChild(document.createTextNode(part)); } }); }); } chats.forEach(function(ch) { var card = document.createElement('div'); card.className = 'chat-card fade-up'; var head = document.createElement('div'); head.className = 'chat-head'; var t = document.createElement('p'); t.className = 'chat-title'; t.textContent = ch.label; var tag = document.createElement('span'); tag.className = 'chat-tag'; tag.textContent = ex; var d = document.createElement('p'); d.className = 'chat-desc'; d.textContent = ch.desc; head.appendChild(tag); head.appendChild(t); head.appendChild(d); card.appendChild(head); var body = document.createElement('div'); body.className = 'chat-body'; (ch.msgs || []).forEach(function(m) { var mine = m.me != null; var bub = document.createElement('div'); bub.className = 'chat-bubble ' + (mine ? 'chat-me' : 'chat-bot'); rich(bub, mine ? m.me : m.bot); body.appendChild(bub); if (m.btn) { var row = document.createElement('div'); row.className = 'chat-btns'; m.btn.forEach(function(lbl) { var bt = document.createElement('span'); bt.className = 'chat-btn'; bt.textContent = lbl; row.appendChild(bt); }); body.appendChild(row); } }); card.appendChild(body); c.appendChild(card); }); }
-};
-
-document.addEventListener('DOMContentLoaded', function() {
-  I18N.init();
-  // Hero phones: add float class after slide-in completes
-  setTimeout(function() {
-    var pl = document.querySelector('.hero-phone-l');
-    var pr = document.querySelector('.hero-phone-r');
-    if (pl) pl.classList.add('loaded');
-    if (pr) pr.classList.add('loaded');
-  }, 1600);
-  // wa.me : same tab on mobile, new tab on desktop
-  var isMobile = window.matchMedia('(pointer:coarse)').matches || /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-  document.addEventListener('click', function(e) {
-    var a = e.target.closest('a[href*="wa.me"]');
-    if (!a) return;
-    if (isMobile) { e.preventDefault(); window.location.href = a.href; }
-    // desktop: default behavior (target=_blank opens new tab)
-  });
-  var burger = document.querySelector('.nav-burger'); var links = document.querySelector('.nav-links');
-  if (burger && links) { burger.addEventListener('click', function() { links.classList.toggle('open'); var spans = burger.querySelectorAll('span'); if (links.classList.contains('open')) { spans[0].style.transform='rotate(45deg) translate(5px,5px)'; spans[1].style.opacity='0'; spans[2].style.transform='rotate(-45deg) translate(5px,-5px)'; } else { spans[0].style.transform=''; spans[1].style.opacity=''; spans[2].style.transform=''; } }); links.querySelectorAll('a').forEach(function(link) { link.addEventListener('click', function() { links.classList.remove('open'); var spans = burger.querySelectorAll('span'); spans[0].style.transform=''; spans[1].style.opacity=''; spans[2].style.transform=''; }); }); }
-  document.body.classList.add('js-ready');
-  var obs = new IntersectionObserver(function(entries) { entries.forEach(function(e) { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } }); }, { threshold: 0.05 });
-  function observeAll() { document.querySelectorAll('.fade-up:not(.visible)').forEach(function(el) { obs.observe(el); }); } observeAll();
-  setTimeout(function() { document.querySelectorAll('.fade-up:not(.visible)').forEach(function(el) { el.classList.add('visible'); }); }, 2000);
-  var origApply = I18N.apply.bind(I18N); I18N.apply = function() { origApply(); setTimeout(observeAll, 50); };
-  var cobs = new IntersectionObserver(function(entries) { entries.forEach(function(e) { if (e.isIntersecting) { animateCounter(e.target); cobs.unobserve(e.target); } }); }, { threshold: 0.5 });
-  document.querySelectorAll('.stat-number').forEach(function(el) { cobs.observe(el); });
-  function animateCounter(el) { var text = el.textContent.trim(); var match = text.match(/^(\d+)/); if (!match) return; var target = parseInt(match[1]); var suffix = text.replace(match[1], ''); var duration = 1200; var start = performance.now(); function update(now) { var elapsed = now - start; var progress = Math.min(elapsed / duration, 1); var eased = 1 - Math.pow(1 - progress, 3); el.textContent = Math.round(target * eased) + suffix; if (progress < 1) requestAnimationFrame(update); } requestAnimationFrame(update); }
-  var form = document.getElementById('contact-form');
-  if (form) { form.addEventListener('submit', function(e) { e.preventDefault(); var data = new FormData(form); var btn = form.querySelector('.form-submit'); var success = document.getElementById('form-success'); var orig = btn.textContent; btn.disabled = true; btn.textContent = '...'; btn.style.opacity = '0.6'; fetch('https://formspree.io/f/mqenjvkv', { method: 'POST', body: data, headers: { 'Accept': 'application/json' } }).then(function() { form.reset(); success.classList.add('show'); setTimeout(function() { success.classList.remove('show'); }, 5000); }).catch(function() { var name = data.get('name') || ''; var msg = data.get('message') || ''; var company = data.get('company') || ''; window.open('https://wa.me/' + WA.CM.num + '?text=' + encodeURIComponent('Bonjour, je suis ' + name + ' de ' + company + '. ' + msg), '_blank'); }).finally(function() { btn.disabled = false; btn.textContent = orig; btn.style.opacity = ''; }); }); }
-});
-</script>
+<script src="/js/i18n.js?v=5"></script>
+<script src="/js/site.js?v=5"></script>
 </body>
 </html>

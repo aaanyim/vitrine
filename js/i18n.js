@@ -74,7 +74,10 @@ var SITE_TEXT = {
         { icon: "card", title: "Une caisse qui vérifie Mobile Money", text: "La vente est payée quand l'opérateur confirme, jamais avant." },
         { icon: "box", title: "Stock et ce qui va manquer", text: "Vous êtes prévenu avant la rupture, au rythme de vos ventes." },
         { icon: "team", title: "Votre équipe, chacun ses accès", text: "Vendeurs, livreurs, employés : chacun voit ce qui le concerne." },
-        { icon: "chat", title: "L'assistant WhatsApp", text: "Vos chiffres, vos commandes, votre journée : il propose, vous touchez." }
+        { icon: "chat", title: "L'assistant WhatsApp", text: "Vos chiffres, vos commandes, votre journée : il propose, vous touchez." },
+        { icon: "tap", title: "Ouvert en 3 écrans", text: "Votre numéro, votre commerce, votre façon de travailler. Pas de mot de passe : vous vendez tout de suite." },
+        { icon: "sliders", title: "Juste les écrans qu'il vous faut", text: "Mini, Boutique ou Pro : vous choisissez et vous changez quand vous voulez. Aucune limite de commandes ni d'employés." },
+        { icon: "key", title: "Entrer avec WhatsApp", text: "Vous et votre équipe entrez avec WhatsApp ou un code reçu. Un mot de passe, seulement si vous le voulez." }
       ],
       create: "Créer mon commerce",
       activities: "Boutique, restaurant, salon, garage, laboratoire, école, hôtel… plus de cent activités."
@@ -86,7 +89,7 @@ var SITE_TEXT = {
       list: [
         { icon: "🍽️", name: "Restaurants et maquis", text: "Commande à table par QR, écran cuisine, ardoises ; le client suit la préparation." },
         { icon: "🛒", name: "Boutiques et alimentation", text: "Caisse avec codes-barres, stock, arrivages, livraisons." },
-        { icon: "🧪", name: "Laboratoires et santé", text: "Dossiers, résultats remis par lien et code, organismes payeurs." },
+        { icon: "🧪", name: "Laboratoires et santé", text: "Dossiers, résultats ouverts avec WhatsApp ou un code, organismes payeurs." },
         { icon: "💇", name: "Beauté et bien-être", text: "Rendez-vous pris dans WhatsApp, agenda de chacun, fiche de chaque client." },
         { icon: "🔧", name: "Garages et réparation", text: "Bons de travail, devis accepté ligne par ligne, pièces en stock." },
         { icon: "🏠", name: "Hébergement et immobilier", text: "Séjours, chambres, baux, loyers, état des lieux." },
@@ -151,7 +154,8 @@ var SITE_TEXT = {
         { q: "Faut-il installer quelque chose pour commander ?", a: "Non. Vous pouvez commander sur WhatsApp ou dans votre navigateur. L'application installée vous prévient de vos commandes et s'ouvre en un toucher." },
         { q: "Pourquoi elle n'est pas sur le Play Store ?", a: "Pas besoin : elle s'installe depuis le navigateur, en 3 gestes, et se met à jour toute seule. Elle prend très peu de place." },
         { q: "Dans quels pays ?", a: "Au Togo et au Cameroun." },
-        { q: "Je suis commerçant : combien ça coûte ?", a: "L'inscription est gratuite. Les tarifs sont juste au-dessus, et le détail est sur la page des tarifs." },
+        { q: "Je suis commerçant : combien ça coûte ?", a: "L'inscription est gratuite, sans limite de commandes ni d'employés. Les tarifs sont juste au-dessus, et le détail est sur la page des tarifs." },
+        { q: "Faut-il un mot de passe ?", a: "Non. Vous ouvrez votre commerce avec votre numéro et un code, puis vous entrez avec WhatsApp ou un code reçu. Vous pouvez ajouter un mot de passe plus tard." },
         { q: "Mes informations sont-elles protégées ?", a: "Elles servent seulement à vos commandes et à vos rendez-vous. Le détail est dans la page Confidentialité." }
       ]
     },
@@ -245,7 +249,10 @@ var SITE_TEXT = {
         { icon: "card", title: "A till that checks Mobile Money", text: "The sale is paid when the operator confirms, never before." },
         { icon: "box", title: "Stock and what will run out", text: "You are warned before you run out, at the pace of your sales." },
         { icon: "team", title: "Your team, each with their access", text: "Sellers, couriers, staff: everyone sees what concerns them." },
-        { icon: "chat", title: "The WhatsApp assistant", text: "Your figures, your orders, your day: it suggests, you tap." }
+        { icon: "chat", title: "The WhatsApp assistant", text: "Your figures, your orders, your day: it suggests, you tap." },
+        { icon: "tap", title: "Open in 3 screens", text: "Your number, your business, the way you work. No password: you start selling right away." },
+        { icon: "sliders", title: "Only the screens you need", text: "Mini, Shop or Pro: you choose and change whenever you like. No limit on orders or staff." },
+        { icon: "key", title: "Sign in with WhatsApp", text: "You and your team sign in with WhatsApp or a code you receive. A password only if you want one." }
       ],
       create: "Create my shop",
       activities: "Shop, restaurant, salon, garage, laboratory, school, hotel… more than a hundred activities."
@@ -257,7 +264,7 @@ var SITE_TEXT = {
       list: [
         { icon: "🍽️", name: "Restaurants", text: "Table orders by QR, kitchen screen, tabs; the customer follows the preparation." },
         { icon: "🛒", name: "Shops and groceries", text: "Till with barcodes, stock, arrivals, deliveries." },
-        { icon: "🧪", name: "Laboratories and health", text: "Files, results delivered by link and code, payers." },
+        { icon: "🧪", name: "Laboratories and health", text: "Files, results opened with WhatsApp or a code, payers." },
         { icon: "💇", name: "Beauty and wellness", text: "Appointments booked in WhatsApp, each person's schedule, each client's card." },
         { icon: "🔧", name: "Garages and repair", text: "Work orders, quotes accepted line by line, parts in stock." },
         { icon: "🏠", name: "Lodging and real estate", text: "Stays, rooms, leases, rents, inventory reports." },
@@ -322,7 +329,8 @@ var SITE_TEXT = {
         { q: "Do I need to install anything to order?", a: "No. You can order on WhatsApp or in your browser. The installed app notifies you about your orders and opens in one tap." },
         { q: "Why isn't it on the Play Store?", a: "No need: it installs from the browser in 3 steps and updates itself. It takes very little space." },
         { q: "In which countries?", a: "In Togo and Cameroon." },
-        { q: "I run a business: how much does it cost?", a: "Signing up is free. The pricing is just above, with the details on the pricing page." },
+        { q: "I run a business: how much does it cost?", a: "Signing up is free, with no limit on orders or staff. The pricing is just above, with the details on the pricing page." },
+        { q: "Do I need a password?", a: "No. You open your business with your number and a code, then sign in with WhatsApp or a code you receive. You can add a password later." },
         { q: "Is my information protected?", a: "It is only used for your orders and appointments. The details are on the Privacy page." }
       ]
     },
